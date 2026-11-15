@@ -1,0 +1,32 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["3U44325XRT.com.ubu.platforms"],
+        "components": [
+          {
+            "/": "/body-scan",
+            "?": { "scanId": "*", "token": "*" },
+            "comment": "Matches any URL with /body-scan and token and scanId query parameters with any value."
+          },
+          {
+            "/": "/reset-password",
+            "?": { "token": "*" },
+            "comment": "Matches any URL with /reset-password and token query parameter with any value."
+          },
+          {
+            "/": "/login",
+            "comment": "Matches any URL with /login, regardless of query parameters."
+          },
+          {
+            "/": "/dashboard/connected-account",
+            "comment": "Supports deep linking back to the connected account page."
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": []
+  }
+}

@@ -1,0 +1,91 @@
+@import "/src/less/responsive-variables.less";
+
+.brand-layout {
+  min-height: 100vh;
+
+  .brand-header {
+    // background-image: url('../../assets/header-bg.png');
+    padding: 2%;
+    background-color: #6e6e6e;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 25%;
+
+    .brand-header-button {
+      border: 1px solid #ffffff;
+      color: white;
+      background-color: inherit;
+      font-family: sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 21.86px;
+      text-align: left;
+    }
+
+    .brand-header-text-1 {
+      font-family: Classy Vogue;
+      font-size: 24.94px;
+      font-weight: 400;
+      line-height: 31.18px;
+      letter-spacing: 0.2771235406398773px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .brand-header-text-2 {
+      font-family: Classy Vogue;
+      font-size: 44.34px;
+      font-weight: 400;
+      line-height: 55.42px;
+      letter-spacing: 0.2771235406398773px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  .brand-content {
+    // height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media @mobile-iphone14 {
+      .brand-content-flex {
+        margin-top: 20%;
+      }
+      .brand-content-flex-text1 {
+        font-size: 18px !important;
+      }
+      .brand-content-flex-description {
+        font-size: 12px !important;
+      }
+    }
+
+    .brand-content-flex {
+      padding: 1rem;
+
+      height: inherit;
+      .brand-content-flex-text1 {
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 38.4px;
+        text-align: center;
+        color: #292d32;
+      }
+
+      .brand-content-flex-description {
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25.6px;
+        text-align: center;
+        color: #292d32;
+      }
+      .brand-content-flex-flex2 {
+        height: 100%;
+        // width: 100%;
+      }
+    }
+  }
+}

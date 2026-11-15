@@ -1,0 +1,133 @@
+.add-post-container {
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  // .add-post-header h1{
+  //   font-size: large;
+  // }
+}
+
+.add-post-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cancel-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.cancel-button svg {
+  margin-right: 10px;
+}
+
+.cancel-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  width: 67%;
+  margin-right: 20px;
+  .add_amazon_link{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .fetch-data-group{
+      display: flex;
+    }
+
+    .fetch-data-button{
+      margin-left: 2%;
+      padding: 6px;
+      border-radius: 5px;
+      font-family: sans-serif;
+      height: 84%;
+      background-color: black;
+      color: white;
+    }
+    .fetch-data-button:hover{
+      color: black;
+      background-color: #e5e5e5;
+    }
+  }
+  // .add_amazon_link h2 {
+  //   margin-bottom: 10px;
+  //   font-size: 1rem;
+  //   font-weight: bold;
+  // }
+
+}
+
+.right-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.submit-button-container .submit-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button-container .submit-button:hover {
+  background-color: #262626;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .form-content {
+    flex-direction: column;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .submit-button-container {
+    justify-content: center;
+  }
+}

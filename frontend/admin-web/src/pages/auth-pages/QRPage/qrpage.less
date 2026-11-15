@@ -1,0 +1,89 @@
+@import "../../../less/responsive-variables.less";
+
+.QRWrapper {
+  padding: 1rem 0.75rem;
+
+  .qr-main {
+    // margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e0e2e7;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.06) 0%,
+      rgba(102, 102, 102, 0) 28.15%
+    );
+  }
+
+  .qr-heading {
+    font-family: Classy Vogue;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+
+  .qr-desc {
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+  }
+
+  .barcode-text {
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 19.6px;
+    text-align: center;
+  }
+
+  @media @larger-than-tablet {
+    .qr-main {
+      width: 100% !important;
+      gap: 2px !important;
+    }
+
+    .qr-img {
+      width: 40%;
+    }
+
+    .qr-heading {
+      font-size: 14px !important;
+    }
+
+    .qr-desc {
+      font-size: 10px !important;
+    }
+    .barcode-text {
+      font-size: 12px !important;
+    }
+
+    .qr-code {
+      width: 150px !important;
+      height: 150px !important;
+    }
+  }
+
+  @media @mobile {
+    .qr-main {
+      // width: 85% !important;
+      gap: 4px !important;
+    }
+
+    .qr-img {
+      width: 45% !important;
+    }
+
+    .qr-desc {
+      font-size: 9px !important;
+    }
+    .qr-heading {
+      font-size: 12px !important;
+    }
+  }
+}

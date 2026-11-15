@@ -1,0 +1,27 @@
+import propTypes from "prop-types";
+function Edit({ width = "32", height = "32" }) {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="16" cy="16.2949" r="15.5" fill="black" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M13.1028 23.0693L22.7744 13.3977L18.8972 9.52051L9.22559 19.1922V23.0693H13.1028ZM18.8972 11.2302L21.0647 13.3977L19.5016 14.9608L17.3341 12.7933L18.8972 11.2302ZM16.4793 13.6481L18.6468 15.8156L12.602 21.8604H10.4345V19.6929L16.4793 13.6481Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+
+Edit.propTypes = {
+  width: propTypes.string,
+  height: propTypes.string,
+};
+
+export default Edit;

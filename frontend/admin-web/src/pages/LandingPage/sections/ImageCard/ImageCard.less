@@ -1,0 +1,113 @@
+@import url("@src/less/color-variables.less");
+@import url("@src/less/responsive-variables.less");
+@import url("@src/less/spacing-scale.less");
+.ImageCard {
+  position: relative;
+
+  .img-button {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 18px;
+    padding: 1em 0.75em;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border-color: #fff;
+
+    @media @tablet {
+      font-size: 0.6rem;
+    }
+    &.btn-left {
+      left: -30px;
+    }
+    &.btn-right {
+      right: -50px;
+    }
+  }
+
+  .image1 {
+    max-width: 180px;
+    max-height: 215px;
+    object-fit: contain;
+    top: -@spacer-desktop-2-5;
+    left: @spacer-desktop-4-5;
+    gap: 0px;
+    @media @larger-than-tablet {
+      max-width: 130px;
+      max-height: 150px;
+    }
+
+    @media @medium-desktop {
+      max-width: 160px;
+      max-height: 195px;
+    }
+    @media @medium-mobile {
+      max-width: 110px !important;
+      max-height: 140px !important;
+    }
+  }
+
+  .image2 {
+    max-width: 180px;
+    max-height: 170px;
+    object-fit: contain;
+    border-radius: 18px 0px 0px 0px;
+
+    @media @larger-than-tablet {
+      max-width: 120px;
+      max-height: 130px;
+    }
+    @media @medium-mobile {
+      max-width: 100px !important;
+      max-height: 110px !important;
+    }
+    @media @medium-desktop {
+      max-width: 160px;
+      max-height: 150px;
+    }
+  }
+
+  .image4 {
+    max-width: 180px;
+    max-height: 170px;
+    object-fit: contain;
+    @media @larger-than-tablet {
+      max-width: 140px;
+      max-height: 130px;
+    }
+
+    @media @medium-mobile {
+      max-width: 100px !important;
+      max-height: 110px !important;
+    }
+
+    @media @medium-desktop {
+      max-width: 160px;
+      max-height: 150px;
+    }
+  }
+
+  .image3 {
+    max-width: 225px;
+    max-height: 205px;
+    top: 109.3px;
+    left: 74.7px;
+    object-fit: contain;
+
+    @media @larger-than-tablet {
+      max-width: 170px;
+      max-height: 145px;
+    }
+
+    @media @medium-mobile {
+      max-width: 140px !important;
+      max-height: 120px !important;
+    }
+
+    @media @medium-desktop {
+      max-width: 205px;
+      max-height: 185px;
+    }
+  }
+}

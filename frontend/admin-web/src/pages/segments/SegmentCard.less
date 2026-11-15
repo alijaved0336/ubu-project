@@ -1,0 +1,106 @@
+@import "/src/less/responsive-variables.less";
+
+.segment-card {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+
+  .segment-content {
+    gap: 0.5rem;
+
+    .segment-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      // justify-content: center;
+      // grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    .segment-detail {
+      background-color: #f5f5f5;
+      border-radius: 12px;
+      padding: 10px;
+      font-size: 0.875rem;
+      gap: 0.75rem;
+      min-height: 74px;
+      border: 1px solid #ced4da;
+    }
+
+    .detail-text {
+      font-family: Poppins;
+      font-size: 1rem;
+      color: #00000080;
+      font-weight: 400;
+      line-height: 19.47px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+
+.segment-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+.segment-black-spinner .ant-spin-dot {
+  color: black !important; // Set the color to black
+}
+
+.segment-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-bottom: 20px;
+}
+
+.segment-section-header h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.segment-actions {
+  display: flex;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.segment-icon {
+  font-size: 1.125rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.segment-icon:hover {
+  color: #000;
+}
+
+.segment-more {
+  grid-column: span 4; /* Ensure this spans across the full width */
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.segment-name-input {
+  width: 25%;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+  @media @mobile {
+    width: 50%;
+  }
+}
+
+.segment-name-input:focus {
+  outline: none;
+  border-color: #000;
+}

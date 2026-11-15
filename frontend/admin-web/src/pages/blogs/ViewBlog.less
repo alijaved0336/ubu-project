@@ -1,0 +1,80 @@
+@import "/src/less/responsive-variables.less";
+
+.view-blog-page {
+  background-color: #f9f9fc;
+}
+
+.view-blog-section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+@media (max-width: @large-desktop-breakpoint) {
+  .view-blog-section {
+    width: 80%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: @small-desktop-breakpoint) {
+  .view-blog-section {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+.view-blog-div {
+  font-family: "Manrope", "sans-serif";
+}
+
+.view-blog-div img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.view-blog-div a {
+  color: #06c;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.view-blog-div a:hover {
+  color: black;
+}
+
+.view-blog-div {
+  p, strong, ul, ol {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
+
+.view-blog-div ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.view-blog-div ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.view-blog-div ol li,
+.view-blog-div ul li {
+  direction: ltr;
+}
+
+.view-blog-div ol li::marker,
+.view-blog-div ul li::marker {
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.UBUPagination {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 8px;
+  .ant-select-selector .ant-select-selection-search-input {
+    display: none !important;
+  }
+  .ant-pagination-item-link {
+    svg {
+      width: 16px;
+      height: 16px;
+      fill: black;
+    }
+  }
+  .ant-pagination-disabled {
+    svg {
+      fill: rgba(128, 128, 128, 0.5);
+    }
+  }
+
+  .ant-pagination-item {
+    border-radius: 100%;
+    a {
+      color: rgba(30, 30, 30, 0.5);
+      font-size: 0.75rem;
+      font-family: Manrope;
+    }
+  }
+
+  .ant-pagination-item-active {
+    background-color: black;
+    border-radius: 100%;
+    border-color: black;
+
+    a {
+      color: white;
+      font-size: 0.75rem;
+    }
+
+    &:hover {
+      border-color: black;
+      a {
+        color: white;
+      }
+    }
+  }
+
+  .ant-pagination-disabled,
+  .ant-pagination-item-disabled a {
+    cursor: not-allowed !important;
+  }
+}

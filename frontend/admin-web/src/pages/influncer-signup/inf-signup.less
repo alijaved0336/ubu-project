@@ -1,0 +1,442 @@
+@import "/src/less/responsive-variables.less";
+@import "@src/less/variables.less";
+@media @mobile-iphone14 {
+  .content {
+    flex-direction: column !important;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .vertical-text-container {
+    left: 20% !important;
+    position: relative !important;
+    transform: rotate(360deg) !important;
+    font-family: Classy Vogue;
+  }
+
+  .image-section {
+    padding-left: 0rem !important;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: Classy Vogue;
+}
+
+.creator-login {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inf-content {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - (@header-height));
+  // padding: 40px 40px 0;
+}
+
+.image-section {
+  flex: 1;
+  position: relative;
+  // padding-left: 3rem;
+  display: flex;
+  justify-content: center;
+  // align-self: flex-start;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.vertical-text-container {
+  position: absolute;
+  top: 50%;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  white-space: nowrap;
+  font-family: Classy Vogue;
+}
+
+.vertical-text {
+  font-size: 1.438rem;
+  color: #000;
+}
+
+.vertical-text-1 {
+  font-size: 1.875rem;
+  color: #000;
+}
+
+.form-section {
+  flex: 1;
+  padding: 20px; /* Reduced padding */
+  /* background: #fff; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  max-width: 500px; /* Added max-width to control form width */
+}
+// .form-section2 {
+// flex: 1;
+// padding: 20px; /* Reduced padding */
+/* background: #fff; */
+/* border-radius: 10px; */
+/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+// max-width: 500px; /* Added max-width to control form width */
+// }
+
+.steps-indicator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.steps-indicator2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  .step {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    /* font-weight: bold; */
+    color: #ccc;
+    background-color: #fff;
+    position: relative;
+  }
+  .step.active {
+    border-color: #ccc;
+    background-color: #ccc;
+    color: #000;
+  }
+  .step::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    width: 40px;
+    height: 1px;
+    background-color: #ccc;
+    transform: translateY(-50%);
+  }
+  .step:last-child::after {
+    display: none;
+  }
+}
+.steps-indicator .step {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+  /* font-weight: bold; */
+  color: #ccc;
+  background-color: #fff;
+  position: relative;
+}
+
+.steps-indicator .step.active {
+  border-color: #ccc;
+  background-color: #ccc;
+  color: #000;
+}
+.step-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.steps-indicator .step::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  width: 40px;
+  height: 1px;
+  background-color: #ccc;
+  transform: translateY(-50%);
+}
+
+.steps-indicator .step:last-child::after {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: Classy Vogue;
+}
+
+.input-field {
+  padding: 15px !important;
+  margin-bottom: 15px !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  width: 100%;
+  box-sizing: border-box !important;
+}
+
+.input-email {
+  max-height: 48px !important;
+}
+
+.platform-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.platform-input .icon-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-color: #eee;
+  border-style: solid;
+  padding: 5px 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #fff;
+}
+.platform-input .input-field {
+  border-color: #eee;
+  border-style: solid;
+  padding: 5px 12px;
+  min-height: 48px;
+  border-left: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.platform-input .icon-select {
+  padding: 10px;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+}
+
+.platform-input .icon-select option {
+  background: white;
+  padding: 10px;
+}
+
+.platform-input .icon-image {
+  width: 24px;
+  height: 24px;
+}
+
+input[name="url"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: #fff;
+}
+
+.platform-input .delete-platform {
+  padding: 10px 15px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  min-height: 48px;
+  border-left: 0;
+}
+
+.add-platform {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 30px 0;
+}
+.add-platform::before {
+  content: "+";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+form .buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .button {
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.previous {
+  background: #ddd;
+  width: 98%;
+  color: #484242;
+  min-height: 48px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.next {
+  background: #000;
+  width: 100%;
+  color: #fff;
+  min-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form .button.submit {
+  background: #0f0f10;
+  width: 100%;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.terms-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.terms-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.terms-container label {
+  font-size: 0.75rem;
+}
+
+.instagram-icon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 8px; /* Space between the icon and text */
+}
+
+.spinner {
+  margin-left: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 2px solid #fff;
+  width: 12px;
+  height: 12px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input-error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.75rem;
+}
+
+.instagram-connect-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+}
+
+.instagram-connect-button {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #fd0434;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+}
+
+.instagram-text {
+  color: black;
+  font-size: 1rem;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+.error-text {
+  color: red;
+  margin-top: 8px;
+}
+
+.buttons-container {
+  padding-top: 10px;
+}

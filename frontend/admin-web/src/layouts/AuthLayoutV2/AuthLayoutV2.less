@@ -1,0 +1,36 @@
+@import "@src/less/responsive-variables.less";
+@import "@src/less/variables.less";
+
+.AuthLayoutV2 {
+  height: auto;
+  min-height: calc(100vh - 64px);
+  flex-wrap: nowrap;
+
+  .col {
+    display: flex;
+  }
+
+  .col-1,
+  .col-3 {
+    flex-basis: 20%;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .col-3 {
+    justify-content: flex-end;
+  }
+  .col-2 {
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  @media @large-mobile {
+    .col-1,
+    .col-3 {
+      display: none;
+    }
+  }
+}

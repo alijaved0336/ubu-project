@@ -1,0 +1,255 @@
+.campaign-view-container {
+  .campaign-view-header {
+    .campaign-buttons {
+      display: flex;
+      gap: 10px; /* Space between buttons */
+
+      .accept-campaign-button {
+        background-color: #3c783c;
+        color: white;
+        border: 1px solid #626262;
+        border-radius: 5px;
+        margin-right: 1%;
+      }
+
+      .reject-campaign-button {
+        background-color: #7e2b2b;
+        color: white;
+        border: 1px solid #626262;
+        border-radius: 5px;
+        margin-right: 1%;
+      }
+
+      .publish-campaign-button {
+        background-color: #1c3b60;
+        color: white;
+        border: 1px solid #626262;
+        border-radius: 5px;
+        margin-right: 1%;
+      }
+
+      .accept-campaign-button:hover,
+      .reject-campaign-button:hover,
+      .publish-campaign-button:hover {
+        color: black !important;
+        border-color: black !important;
+      }
+    }
+  }
+  .camapign-view-data {
+  }
+}
+
+.campaign-details {
+  flex: 1;
+  max-width: 50%;
+}
+.section-header {
+  color: #777980;
+  font-size: 0.875rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.07px;
+  word-wrap: break-word;
+  // margin-top: 2%;
+}
+.campaign-section {
+  // width: 542px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  .section-content {
+    align-self: stretch;
+    padding: 8px 12px;
+    background: #f9f9fc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .content-box {
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .content-item {
+    color: black;
+    font-size: 0.75rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    line-height: 12.48px;
+    word-wrap: break-word;
+  }
+
+  .content-date {
+    color: #858d9d;
+    font-size: 0.875rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word;
+  }
+}
+
+.description-container {
+  border-radius: 8px;
+  overflow-y: auto;
+  flex: 1;
+
+  .description-header {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .header-text {
+    color: #777980;
+    font-size: 0.875rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word;
+    // margin-top: 2%;
+  }
+
+  .description-content {
+    flex: 1;
+    overflow-y: auto;
+    background: #f9f9fc;
+    border-radius: 8px;
+    padding: 10px;
+    color: #858d9d;
+    font-family: Manrope;
+  }
+}
+
+.additional-details-row {
+  // height: auto;
+  .details-column {
+    flex: 1;
+    // padding: 12px;
+    gap: 4px;
+    .additional-req-section {
+      gap: 4px;
+      border-radius: 8px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      height: 168px;
+      overflow-y: auto;
+
+      .additional-content {
+        flex: 1;
+        overflow-y: auto;
+        background: #f9f9fc;
+        border-radius: 8px;
+        padding: 10px;
+      }
+    }
+  }
+
+  // .details-column h3 {
+  //   font-size: 1.25rem;
+  //   margin-bottom: 12px;
+  // }
+
+  .special-condition-campaign {
+    max-height: 400px !important;
+  }
+
+  // .special-condition-campaign h3 {
+  //   font-size: 1.25rem;
+  //   margin-bottom: 12px;
+  // }
+}
+
+.documents-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+// .campaign-header {
+//   display: flex;
+//   width: 100%;
+//   align-items: flex-start; /* Align items at the start */
+//   padding: 20px 40px;
+//   font-family: 'Arial', sans-serif; /* Add a basic font-family */
+// }
+
+// .header-title-wrapper {
+//   width: 100%; /* Make the heading span across full width */
+//   padding: 15px 40px;
+//   font-family: 'Arial', sans-serif;
+// }
+
+// .campaign-header-title {
+//   font-size: 1rem;
+//   font-weight: 600;
+//   color: #000;
+// }
+
+// .header-section {
+//   display: flex;
+//   flex-direction: column; /* Stack label and value vertically */
+//   align-items: flex-start;
+//   margin-right: 20px; /* Add some space between the sections */
+//   width: 50%;
+// }
+
+// .description-section {
+//   display: flex;
+//   flex-direction: column; /* Stack label and value vertically */
+//   align-items: flex-start;
+//   margin-right: 20px; /* Add some space between the sections */
+// }
+
+// .header-label {
+//   font-size: 0.875rem; /* Font size for label */
+//   font-weight: 500;
+//   margin-bottom: 16px; /* Add space below the label */
+// }
+
+// .header-value {
+//   font-size: 0.875rem;
+//   color: #555; /* Light grey color for the value */
+// }
+
+// .hashtag-item {
+//   background-color: #e1e1e1;
+//   border-radius: 12px;
+//   padding: 6px 16px;
+//   font-size: 0.875rem;
+//   color: #333;
+//   margin-bottom: 5px; /* Space between hashtag items */
+//   margin-right: 8px; /* Space between each hashtag */
+//   display: inline-block;
+//   font-weight: 500; /* Slightly heavier font weight */
+// }
+
+// .header-value .hashtag-item {
+//   display: inline-block;
+// }
+
+.documents-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}

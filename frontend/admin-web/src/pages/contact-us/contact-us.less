@@ -1,0 +1,141 @@
+@import url("../../less/responsive-variables.less");
+
+.parent-contact-form {
+  height: 100%;
+  .flex-w-100 {
+    width: 100%;
+  }
+  .parent-contact-form-1 {
+    height: 100%;
+  }
+  .contact-form-parent {
+    width: 100%;
+    gap: 16px;
+  }
+
+  @media @large-tablet2 {
+    .contact-form-div {
+      flex-direction: column;
+    }
+    .contact-input {
+      height: 50px !important;
+    }
+    .contact-btn {
+      height: 50px !important;
+    }
+  }
+
+  @media @tablet {
+    h1 {
+      font-size: x-large !important;
+    }
+  }
+  @media @mobile-iphone14 {
+    h1 {
+      font-size: medium !important;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .contact-btn {
+      width: 100% !important;
+    }
+  }
+
+  .contact-form {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5rem;
+    @media @tablet {
+      padding: 2rem;
+      gap: 1rem;
+      .contact-form-div {
+        gap: 1rem;
+      }
+    }
+    @media @mobile-iphone14 {
+      padding: 1rem;
+      gap: 0.75rem;
+      .contact-form-div {
+        gap: 0.75rem;
+      }
+    }
+
+    .form-heading {
+      font-size: 1.375rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.48px;
+      margin: 0;
+    }
+
+    .contact-form-div {
+      width: 100%;
+    }
+
+    .contact-input {
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #ebebeb;
+      font-family: Manrope;
+      font-size: 1rem;
+      color: black;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      &::placeholder {
+        font-size: 1rem;
+        color: #000000;
+        opacity: 0.3;
+      }
+    }
+
+    .ant-input:focus {
+      border: 2px solid #e0e2e7 !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+
+    .contact-text-area {
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #ebebeb;
+      font-family: Manrope;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      &::placeholder {
+        font-size: 1rem;
+        color: #000000;
+        opacity: 0.3;
+      }
+    }
+
+    .ant-textarea:focus {
+      border: 2px solid #e0e2e7 !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+
+    .contact-btn {
+      align-self: flex-end;
+      width: 114px;
+      height: 55px;
+      padding: 18px 36px;
+      border-radius: 12px;
+      font-family: Manrope;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: left;
+      color: #ffffff;
+      background-color: black;
+    }
+  }
+}

@@ -1,0 +1,339 @@
+@import "../../../less/color-variables.less";
+@import "../../../less/spacing-scale.less";
+@import "../../../less/responsive-variables.less";
+@import "@src/less/variables.less";
+
+.main-layout {
+  background-color: @white;
+
+  .layout-background {
+    background-color: @white;
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100% !important;
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+.ant-notification-notice-wrapper {
+  @media @medium-mobile {
+    width: 265px;
+
+    .ant-notification-notice {
+      width: unset  !important;
+    }
+    .ant-notification-notice-message {
+      font-size: @spacer-desktop-03 !important;
+    }
+
+    .ant-notification-notice-description {
+      font-size: @spacer-desktop-2-5 !important;
+    }
+  }
+
+  @media @mobile {
+    width: 240px;
+
+    .ant-notification-notice {
+      width: unset  !important;
+    }
+    .ant-notification-notice-message {
+      font-size: @spacer-desktop-2-5 !important;
+    }
+
+    .ant-notification-notice-description {
+      font-size: @spacer-desktop-02 !important;
+    }
+  }
+}
+
+.login-p {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - (@header-height));
+  @media @large-desktop {
+    .login-p-f1-f2-f1 {
+      right: 175px !important;
+    }
+
+    .login-p-f1-f2-f2 {
+      right: 195px !important;
+    }
+
+    .login-p-f1-f2-f3 {
+      right: 140px !important;
+    }
+  }
+
+  @media @medium-desktop {
+    .login-p-flex1-f1 {
+      height: 350px !important;
+    }
+    .login-p-flex1-f2-f1 {
+      bottom: 310px !important;
+      left: 60px !important;
+    }
+
+    .login-p-flex1-f2-f2 {
+      bottom: 225px !important;
+      left: 200px !important;
+    }
+
+    .login-p-flex1-f2-f3 {
+      bottom: 60px !important;
+      left: 280px !important;
+    }
+  }
+
+  @media (max-width: 1145px) {
+    .login-p-flex1-f1 {
+      height: unset !important;
+    }
+
+    .login-p-flex1-f2-f1 {
+      bottom: 280px !important;
+    }
+
+    .login-p-flex1-f2-f2 {
+      bottom: 180px !important;
+      left: 210px !important;
+    }
+
+    .login-p-flex1-f2-f3 {
+      bottom: 35px !important;
+      left: 262px !important;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .login-p-f1-f2-f1 {
+      top: 40px !important;
+
+      right: 120px !important;
+    }
+
+    .login-p-f1-f2-f2 {
+      top: 150px !important;
+      right: 156px !important;
+    }
+
+    .login-p-f1-f2-f3 {
+      top: 240px !important;
+    }
+
+    .login-p-flex1-f1,
+    .login-p-f1-f1 {
+      height: 270px !important;
+    }
+
+    .login-p-flex1-f2-f1 {
+      bottom: 225px !important;
+    }
+
+    .login-p-flex1-f2-f2 {
+      bottom: 129px !important;
+      left: 178px !important;
+    }
+
+    .login-p-flex1-f2-f3 {
+      bottom: 25px !important;
+      left: 221px !important;
+    }
+  }
+
+  @media @tablet {
+    .login-p-f1-f2-f1-img,
+    .login-p-f1-f2-img,
+    .login-p-f1-f2-f3-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-flex1-f2-f1-img,
+    .login-p-flex1-f2-img,
+    .login-p-flex1-f2-f3-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-f1-f2-f1 {
+      top: 20px !important;
+      right: 60px !important;
+    }
+
+    .login-p-f1-f2-f2 {
+      top: 80px !important;
+      right: 80px !important;
+    }
+
+    .login-p-f1-f2-f3 {
+      top: 125px !important;
+      right: 75px !important;
+    }
+
+    .login-p-flex1-f1,
+    .login-p-f1-f1 {
+      height: 150px !important;
+    }
+
+    .login-p-flex1-f2-f1 {
+      bottom: 120px !important;
+      left: 20px !important;
+    }
+
+    .login-p-flex1-f2-f2 {
+      bottom: 70px !important;
+      left: 85px !important;
+    }
+
+    .login-p-flex1-f2-f3 {
+      bottom: 13px !important;
+      left: 120px !important;
+    }
+  }
+
+  @media @mobile-iphone14 {
+    justify-content: center;
+
+    .login-p-flex1,
+    .login-p-f1 {
+      display: none;
+    }
+
+    .login-p-f1-f1 {
+      height: 150px !important;
+    }
+
+    .login-p-f1-f2-f1 {
+      top: 10px !important;
+
+      right: 85px !important;
+    }
+
+    .login-p-f1-f2-f2 {
+      top: 75px !important;
+      right: 110px !important;
+    }
+
+    .login-p-f1-f2-f3 {
+      top: 120px !important;
+      right: 100px !important;
+    }
+
+    .login-p-f1-f2-f1-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-f1-f2-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-f1-f2-f3-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-flex1-f1 {
+      height: 150px !important;
+    }
+
+    .login-p-flex1-f2-f1-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-flex1-f2-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-flex1-f2-f3-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .login-p-flex1-f2-f1 {
+      bottom: 120px !important;
+      left: 15px !important;
+    }
+
+    .login-p-flex1-f2-f2 {
+      bottom: 80px !important;
+      left: 80px !important;
+    }
+
+    .login-p-flex1-f2-f3 {
+      bottom: 15px !important;
+      left: 115px !important;
+    }
+  }
+
+  .login-p-flex1 {
+    height: inherit;
+    width: 10%;
+
+    .login-p-flex1-f1 {
+      height: 400px;
+      position: relative;
+    }
+
+    .login-p-flex1-f2 {
+      .login-p-flex1-f2-f1 {
+        position: absolute;
+        bottom: 355px;
+        left: 66px;
+      }
+
+      .login-p-flex1-f2-f2 {
+        position: absolute;
+        bottom: 265px;
+        left: 240px;
+      }
+
+      .login-p-flex1-f2-f3 {
+        position: absolute;
+        bottom: 70px;
+        left: 330px;
+      }
+    }
+  }
+
+  .login-p-f1 {
+    width: 10%;
+    height: inherit;
+
+    @media @mobile-iphone14 {
+    }
+
+    .login-p-f1-f1 {
+      position: absolute;
+      right: 0;
+    }
+
+    .login-p-f1-f2 {
+      .login-p-f1-f2-f1 {
+        position: relative;
+        top: 65px;
+        right: 145px;
+      }
+
+      .login-p-f1-f2-f2 {
+        position: relative;
+        top: 220px;
+        right: 170px;
+      }
+
+      .login-p-f1-f2-f3 {
+        position: relative;
+        top: 330px;
+        right: 130px;
+      }
+    }
+  }
+}

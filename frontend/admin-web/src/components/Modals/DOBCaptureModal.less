@@ -1,0 +1,62 @@
+.dob-capture-modal {
+    .ant-modal-content {
+      border-radius: 16px;
+      padding: 0;
+    }
+  
+    .dob-modal-content {
+      padding: 2rem;
+      
+      .dob-modal-header {
+        margin-bottom: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .fs-20 {
+          margin-bottom: 0.5rem;
+        }
+      }
+  
+      .dob-form {
+        .ant-form-item {
+          margin-bottom: 1.5rem;
+          
+          .ant-form-item-label {
+            font-weight: 600;
+            font-size: 14px;
+          }
+  
+          .ant-picker {
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+            
+            &:hover {
+              border-color: #9ca3af;
+            }
+  
+            &:focus,
+            &.ant-picker-focused {
+              border-color: #000;
+              box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+            }
+          }
+  
+          .ant-form-item-explain-error {
+            color: #ef4444;
+            font-size: 12px;
+            margin-top: 4px;
+          }
+        }
+      }
+  
+      .dob-modal-actions {
+        margin-top: 1rem;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .dob-modal-content {
+        padding: 1.5rem;
+      }
+    }
+  }

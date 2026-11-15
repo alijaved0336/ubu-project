@@ -1,0 +1,595 @@
+@import "/src/less/responsive-variables.less";
+
+@media @mobile-iphone14 {
+  .brand-f-f1 {
+    flex-direction: column;
+  }
+}
+.input-error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.75rem;
+}
+
+.brand-form {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+
+  .brand-registration-flex {
+    width: 100%;
+
+    .brand-f {
+      width: inherit;
+
+      .brand-f-f1 {
+        width: inherit;
+
+        .input-flex {
+          width: 100%;
+          .input {
+            height: 40px;
+            width: 100%;
+          }
+          .textarea {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      .brand-f-f2 {
+        width: 48.5%;
+      }
+    }
+  }
+
+  .brand-cbs-productCategories {
+    width: inherit;
+
+    @media @large-desktop {
+      .brand-cbs-productCategories-item {
+        width: 24% !important;
+      }
+    }
+    @media @larger-than-tablet {
+      .brand-cbs-productCategories-item {
+        width: 23% !important;
+      }
+    }
+    @media @tablet {
+      .brand-cbs-productCategories-item {
+        width: 32% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-cbs-productCategories-item {
+        width: 100% !important;
+      }
+
+      .brand-cbs-productCategories-text {
+        font-size: 14px !important;
+      }
+    }
+
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-cbs-productCategories-item {
+        width: 45% !important;
+      }
+    }
+
+    .brand-cbs-productCategories-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+
+    .brand-cbs-productCategories-row {
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 100%;
+
+      .brand-cbs-productCategories-item {
+        width: 25%;
+        padding: 5px;
+      }
+
+      .brand-cbs-productCategories-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio-annualSales {
+    @media @large-desktop {
+      .brand-radio-annualSales-item {
+        width: 25% !important;
+      }
+    }
+
+    @media @larger-than-tablet {
+      .brand-radio-annualSales-item {
+        width: 25% !important;
+      }
+    }
+    @media @tablet {
+      .brand-radio-annualSales-item {
+        width: 32% !important;
+      }
+    }
+
+    @media @mobile-iphone14 {
+      .brand-radio-annualSales-item {
+        width: 100% !important;
+      }
+
+      .brand-radio-annualSales-text {
+        font-size: 14px !important;
+      }
+    }
+    width: 100%;
+    .brand-radio-annualSales-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-annualSales-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+
+      .brand-radio-annualSales-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-annualSales-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio2-affliatenetwork {
+    width: 100%;
+
+    @media @larger-than-tablet {
+      .brand-radio2-affliatenetwork-item {
+        width: 23% !important;
+      }
+    }
+    @media @tablet {
+      .brand-radio2-affliatenetwork-item {
+        width: 32% !important;
+      }
+    }
+
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-radio2-affliatenetwork-item {
+        width: 45% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio2-affliatenetwork-item {
+        width: 100% !important;
+      }
+
+      .brand-radio2-affliatenetwork-text {
+        font-size: 14px !important;
+      }
+    }
+
+    .brand-radio2-affliatenetwork-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio2-affliatenetwork-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+
+      .brand-radio2-affliatenetwork-item {
+        width: 24%;
+        align-items: center;
+        // max-width: 80%;
+      }
+
+      .brand-radio2-affliatenetwork-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+    .input-1 {
+      height: 30px;
+      width: 20%;
+    }
+  }
+
+  .brand-radio-numofemp {
+    width: 100%;
+
+    @media @tablet {
+      .brand-radio-numofemp-item {
+        width: 32% !important;
+        margin-bottom: 5px;
+      }
+    }
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-radio-numofemp-item {
+        width: 45% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-numofemp-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+
+      .brand-radio-numofemp-text {
+        font-size: 14px !important;
+      }
+    }
+    .brand-radio-numofemp-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-numofemp-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+      .brand-radio-numofemp-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-numofemp-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio-describeyourself {
+    width: 100%;
+
+    @media @tablet {
+      .brand-radio-describeyourself-item {
+        width: 32% !important;
+      }
+    }
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-radio-describeyourself-item {
+        width: 45% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-describeyourself-item {
+        margin-bottom: 5px;
+        width: 100% !important;
+      }
+      .brand-radio-describeyourself-text {
+        font-size: 14px !important;
+      }
+    }
+
+    .brand-radio-describeyourself-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-describeyourself-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+
+      .brand-radio-describeyourself-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-describeyourself-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+  .brand-radio-totalFollowers {
+    width: 100%;
+    @media @tablet {
+      .brand-radio-totalFollowers-item {
+        width: 32% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-totalFollowers-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      .brand-radio-totalFollowers-text {
+        font-size: 14px !important;
+      }
+    }
+
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-radio-totalFollowers-item {
+        width: 45% !important;
+      }
+    }
+    .brand-radio-totalFollowers-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-totalFollowers-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+      .brand-radio-totalFollowers-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-totalFollowers-row-cb {
+        font-family: Manrope;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio-countries {
+    width: 100%;
+
+    @media @large-desktop {
+      .brand-radio-countries-item {
+        width: 25% !important;
+      }
+    }
+
+    @media @larger-than-tablet {
+      .brand-radio-countries-item {
+        width: 25% !important;
+      }
+    }
+    @media @tablet {
+      .brand-radio-countries-item {
+        width: 32% !important;
+      }
+    }
+    @media only screen and (min-width: 430px) and (max-width: 483px) {
+      .brand-radio-countries-item {
+        width: 45% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-countries-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      .brand-radio-countries-text {
+        font-size: 14px !important;
+      }
+    }
+
+    .brand-radio-countries-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-countries-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+
+      .brand-radio-countries-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-countries-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio-currentPlatform {
+    width: 100%;
+
+    @media @tablet {
+      .brand-radio-currentPlatform-item {
+        width: 32% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-currentPlatform-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      .brand-radio-currentPlatform-text {
+        font-size: 14px !important;
+      }
+    }
+    .brand-radio-currentPlatform-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-currentPlatform-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+      gap: 16rem;
+
+      .ePlatform 
+      {
+        width:20rem;
+        border: 1px solid #696c7080;
+        height: 3rem;
+        border-radius: 10px;
+      }
+      .ePlatformError 
+      {
+        width:20rem;
+        border: 1px solid red;
+        height: 3rem;
+        border-radius: 10px;
+      }
+      .brand-radio-currentPlatform-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-currentPlatform-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+
+  .brand-radio-runCampigns {
+    width: 100%;
+
+    @media @tablet {
+      .brand-radio-runCampigns-item {
+        width: 32% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-runCampigns-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      .brand-radio-runCampigns-text {
+        font-size: 14px !important;
+      }
+    }
+    .brand-radio-runCampigns-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-runCampigns-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+
+      .brand-radio-runCampigns-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-runCampigns-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+  .brand-radio-numOfAgenciesforCampaigns {
+    width: 100%;
+
+    @media @tablet {
+      .brand-radio-numOfAgenciesforCampaigns-item {
+        width: 32% !important;
+      }
+    }
+    @media @mobile-iphone14 {
+      .brand-radio-numOfAgenciesforCampaigns-item {
+        width: 100% !important;
+        margin-bottom: 5px;
+      }
+      .brand-radio-numOfAgenciesforCampaigns-text {
+        font-size: 14px !important;
+      }
+    }
+    .brand-radio-numOfAgenciesforCampaigns-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-align: left;
+    }
+    .brand-radio-numOfAgenciesforCampaigns-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: inherit;
+      min-width: 100%;
+
+      .brand-radio-numOfAgenciesforCampaigns-item {
+        width: 25%;
+        align-items: center;
+      }
+
+      .brand-radio-numOfAgenciesforCampaigns-row-cb {
+        font-family: Inter, sans-serif;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.reset-padding {
+  .input {
+    padding: 0;
+  }
+}

@@ -1,0 +1,95 @@
+.create-proposal-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.proposal-input {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+.quill {
+  width: 100% !important;
+  height: 400px !important; 
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: fit-content !important; 
+  margin-bottom: 20px !important;
+}
+
+.quill .ql-editor {
+  flex-grow: 1 !important;
+  overflow-y: auto !important; 
+  max-height: 100% !important;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+
+.button-row {
+  margin-top: 30px;
+}
+
+.draft-button,
+.save-proposal-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 18px 14px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.draft-button {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  color: black;
+}
+
+.save-proposal-button {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid #d9d9d9;
+}
+
+.draft-button:hover {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid #d9d9d9 !important;
+}
+
+.save-proposal-button:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #d9d9d9 !important;
+}
+
+.proposal-back-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.back-proposal-button {
+  background-color: transparent;
+  border: 1px solid #d9d9d9;
+  color: black;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.back-proposal-button:hover {
+  background-color: black !important;
+  border: 1px solid #d9d9d9 !important;
+  color: white !important;
+}

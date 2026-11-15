@@ -1,0 +1,193 @@
+@import url("@src/less/responsive-variables.less");
+
+.parent-div-middle {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+
+  :global(.ant-modal-content .anticon) {
+    display: none !important;
+    width: 1000px;
+  }
+
+  @media @large-desktop {
+    .parents {
+      width: 50%;
+      gap: 16px !important;
+      .parent-store-btns {
+        .download-our-app {
+          font-size: 2.5rem;
+        }
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 0.938rem;
+        }
+      }
+    }
+    .container {
+      width: 50%;
+    }
+  }
+
+  @media @medium-desktop {
+    .parents {
+      gap: 14px !important;
+      .parent-store-btns {
+        .download-our-app {
+          font-size: 2.188rem;
+        }
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 1.063rem;
+          line-height: 21.32px;
+          max-width: 74%;
+        }
+      }
+    }
+  }
+  @media @larger-than-tablet {
+    .parents {
+      gap: 12px !important;
+      .parent-store-btns {
+        .download-our-app {
+          font-size: 1.875rem;
+        }
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 0.75rem;
+          line-height: 21.32px;
+          max-width: 80%;
+        }
+      }
+    }
+  }
+
+  @media @large-tablet2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .parents {
+      width: 100%;
+      gap: 10px !important;
+      .parent-store-btns {
+        justify-content: center;
+        align-items: center;
+        .download-our-app {
+          font-size: 2.375rem;
+        }
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 1.063rem;
+          line-height: 21.32px;
+          max-width: 100%;
+        }
+      }
+      .parent-store-btns > div {
+        width: 30%;
+      }
+    }
+    .container {
+      width: 100%;
+      .ellipse-container {
+        justify-content: center;
+        .ellipse-c-2 {
+          height: 97%;
+          width: 46%;
+        }
+      }
+      .mob-container {
+        width: inherit;
+        justify-content: center;
+        display: flex;
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  @media @tablet {
+    .parents {
+      .parent-store-btns {
+        .download-our-app {
+          font-size: 1.875rem;
+        }
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 0.938rem;
+        }
+      }
+    }
+  }
+
+  @media @mobile-iphone14 {
+    .parents {
+      .parent-store-btns {
+        .download-our-app {
+          font-size: 1.875rem;
+        }
+      }
+      .parent-store-btns > div {
+        width: 50%;
+      }
+      .parent-store-btns2 {
+        .discover-text {
+          font-size: 0.938rem;
+        }
+      }
+    }
+    .container {
+      .ellipse-container {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.parent-store-btns {
+  width: 100%;
+}
+.parent-store-btns2 {
+  min-width: 65%;
+}
+
+.download-our-app {
+  font-family: Classy Vogue;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 55.3px;
+  text-align: left;
+}
+
+.discover-text {
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  max-width: 55%;
+}
+
+.ellipse-container {
+  position: relative;
+  height: 550px;
+}
+
+.mob-container {
+  margin-top: 32px;
+  position: absolute;
+  width: 293px;
+  height: 555px;
+  display: inline-block;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,257 @@
+@import url("../../less/responsive-variables.less");
+body
+{
+  font-family: "Manrope !important";
+}
+.aboutus-parent {
+  .gap-1 {
+    gap: 0.25rem;
+  }
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  .gap-3 {
+    gap: 0.75rem;
+  }
+  .gap-4 {
+    gap: 1rem;
+  }
+  .gap-8 {
+    gap: 2rem;
+  }
+
+  .aboutus-parent-1 {
+    width: 100%;
+    gap: 3.5rem;
+    @media (max-width: 480px) {
+      .flex-text-welcome {
+        font-size: 35px !important;
+        line-height: 35px !important;
+      }
+      .aboutus-middle-description,
+      .aboutus-stats-description,
+      .aboutus-expertise-description {
+        width: 100% !important;
+      }
+      .heading-under-img-welcome {
+        width: 85px !important;
+      }
+      .aboutus-middle-2,
+      .aboutus-stats-middle,
+      .aboutus-expertise-middle {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .aboutus-middle-2-1,
+        .aboutus-stats-middle-1,
+        .aboutus-expertise-middle-1 {
+          width: 100% !important;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+        }
+        .aboutus-middle-2-1-description,
+        .aboutus-stats-description,
+        .aboutus-expertise-description {
+          text-align: center !important;
+        }
+      }
+    }
+    .aboutus-welcome {
+      padding: 4rem;
+      gap: 3.5rem;
+      @media @tablet {
+        padding: 2rem;
+        gap: 2rem;
+      }
+      @media @large-mobile {
+        padding: 1rem;
+      }
+      .aboutus-welcome-1 {
+        .aboutus-welcome-1-1 {
+          .flex-text-welcome {
+            font-family: Classy Vogue;
+            font-size: 3.125rem;
+            font-weight: 400;
+            line-height: 55.3px;
+            text-align: left;
+          }
+        }
+
+        .aboutus-welcome-1-2 {
+          .aboutus-welcome-1-2-1 {
+            .flex-text-welcome {
+              color: #184235;
+              font-size: 3.125rem;
+              font-weight: 400;
+              line-height: 55.3px;
+              text-align: left;
+            }
+          }
+          .aboutus-welcome-1-2-2 {
+            .heading-under-img-welcome {
+              width: 127.41px;
+              height: 6.82px;
+              top: 54.72px;
+              left: 387px;
+              gap: 0px;
+              border: 3px 0px 0px 0px;
+              opacity: 0px;
+            }
+          }
+        }
+      }
+
+      .welcome-container {
+        width: 72%;
+        display: flex;
+        justify-content: center;
+        .welcome-description {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.25rem;
+          line-height: 27px;
+          text-align: center;
+          color: #000000;
+        }
+      }
+      .aboutus-video {
+        width: 100%;
+      }
+      .aboutus-middle {
+        flex-wrap: wrap;
+        min-width: 100%;
+        .aboutus-middle-heading {
+          font-family: Classy Vogue;
+          font-size: 3.125rem;
+          font-weight: 400;
+          line-height: 55.3px;
+          text-align: center;
+        }
+        .aboutus-middle-description {
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 24.59px;
+          text-align: center;
+          width: 70%;
+          opacity: 80%;
+        }
+        .aboutus-middle-2-1 {
+          width: 30%;
+          .aboutus-middle-2-1-heading {
+            font-size: 1.75rem;
+            font-weight: 500;
+            line-height: 35px;
+            text-align: left;
+          }
+          .aboutus-middle-2-1-description {
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 24.59px;
+            text-align: left;
+            opacity: 80%;
+          }
+        }
+      }
+      .aboutus-stats {
+        flex-wrap: wrap;
+        width: 100%;
+        .aboutus-stats-heading {
+          font-family: Classy Vogue;
+          font-size: 3.125rem;
+          font-weight: 400;
+          line-height: 55.3px;
+          text-align: center;
+        }
+        .aboutus-stats-description {
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 24.59px;
+          text-align: center;
+          width: 70%;
+          opacity: 80%;
+        }
+        .aboutus-stats-middle {
+          width: 100%;
+          justify-content: space-around;
+          .aboutus-stats-middle-1 {
+            gap: 1rem;
+            .aboutus-stats-count {
+              font-size: 3.75rem;
+              font-weight: 700;
+              line-height: 60px;
+              text-align: left;
+            }
+            .aboutus-stats-description {
+              font-size: 1.75rem;
+              font-weight: 500;
+              text-align: left;
+              opacity: 80%;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+      .aboutus-expertise {
+        flex-wrap: wrap;
+        min-width: 100%;
+        padding-top: 1rem;
+        .aboutus-expertise-heading {
+          font-family: Classy Vogue;
+          font-size: 3.125rem;
+          font-weight: 400;
+          line-height: 55.3px;
+          text-align: center;
+        }
+        .aboutus-expertise-description {
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 24.59px;
+          text-align: center;
+          width: 70%;
+          opacity: 80%;
+        }
+        .aboutus-expertise-middle-1 {
+          width: 100% !important;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      @media @tablet {
+        .aboutus-expertise-middle {
+          flex-direction: column;
+        }
+      }
+      .aboutus-expertise-middle {
+        width: 100%;
+        gap: 1rem;
+        display: flex;
+        justify-content: space-between;
+        .aboutus-expertise-middle-1 {
+          .flex-img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
+            object-fit: contain;
+          }
+          .aboutus-expertise-count {
+            font-size: 3.75rem;
+            font-weight: 700;
+            line-height: 60px;
+            text-align: left;
+          }
+          .aboutus-expertise-description {
+            font-size: 1.75rem;
+            font-weight: 500;
+            line-height: 60px;
+            text-align: left;
+            opacity: 80%;
+          }
+        }
+      }
+    }
+  }
+}

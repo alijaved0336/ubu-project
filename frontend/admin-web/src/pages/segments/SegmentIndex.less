@@ -1,0 +1,119 @@
+@import url("/src/less/responsive-variables.less");
+
+@media @mobile-iphone14 {
+  .segment-index-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gray-color {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+.segment-index {
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+
+  .segment_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .create-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: red;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  .gray-color {
+    background-color: #e7e5e5 !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+
+  .segment-controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    // @media @tablet-view {
+    //   flex-direction: column;
+    // }
+    .search-bar-container {
+      width: 60%;
+
+      @media @larger-than-tablet {
+        width: 100%;
+      }
+      // flex-grow: 1;
+      & > * {
+        height: 100%;
+      }
+    }
+
+    .UBUPagination {
+      margin-left: auto;
+      // width: 50%;
+    }
+
+    // &:nth-child(2) {
+    //   margin-left: auto;
+    // }
+    // .segment-page-pagination {
+    //   border: 1px solid #ddd;
+    //   padding: 8px;
+    //   border-radius: 8px;
+    //   margin-left: auto;
+
+    //   .ant-pagination-item-link {
+    //     svg {
+    //       width: 16px;
+    //       height: 16px;
+    //       fill: black;
+    //     }
+    //   }
+
+    //   .ant-pagination-item {
+    //     a {
+    //       color: rgba(30, 30, 30, 0.5);
+    //       font-size: 0.75rem;
+    //       font-family: Manrope;
+    //     }
+    //   }
+
+    //   .ant-pagination-item-active {
+    //     background-color: black;
+    //     border-radius: 100%;
+    //     border-color: black;
+
+    //     a {
+    //       color: white;
+    //       font-size: 0.75rem;
+    //     }
+    //   }
+
+    //   .ant-pagination-disabled {
+    //     cursor: not-allowed !important;
+    //   }
+    // }
+  }
+}
+
+.segment-index-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}

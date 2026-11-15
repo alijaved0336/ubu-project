@@ -1,0 +1,181 @@
+@import "../../less/responsive-variables.less";
+@import "../../less/color-variables.less";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  .form-input {
+    padding: 0;
+    border: 0;
+    .auth-checkbox {
+      input,
+      .ant-checkbox-inner {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  .signup-chkbox {
+    font-family: Manrope;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+    color: #64748b;
+    .link-text {
+      font-weight: bold;
+      color: black;
+    }
+  }
+
+  .signup-label {
+    margin-top: 1px;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #64748b;
+  }
+
+  .chkf1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+
+    .forgot-password-link {
+      width: 50%;
+      max-width: 500px;
+      color: @black;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+      font-family: Manrope;
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 22.4px;
+      text-align: right;
+    }
+  }
+
+  .form-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    padding: 1.25em;
+    border-radius: 12px;
+    font-family: Manrope;
+    &:hover {
+      border-color: #e0e2e7;
+    }
+    &:focus,
+    &:focus-visible,
+    &:focus-within,
+    &:active {
+      outline: none;
+      border-color: #e0e2e7;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .ant-input-prefix {
+      margin-inline-end: 12px;
+
+      img {
+        object-fit: contain;
+      }
+    }
+    .ant-input-prefix,
+    .ant-input-suffix {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        width: 24px;
+        height: 18px;
+        path {
+          fill: #64748b;
+        }
+      }
+    }
+  }
+
+  .form-items-container .form-input:last-child {
+    margin-bottom: 2%;
+  }
+
+  .submit-button-auth {
+    margin-bottom: 0;
+    margin-top: 10px;
+
+    button {
+      width: 100%;
+      padding: 0.9em;
+      border-radius: 12px;
+      background: #000000;
+      color: white;
+      font-family: Manrope;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 22.4px;
+      letter-spacing: 0.2px;
+      transition: background 0.3s, color 0.3s;
+      display: flex; /* Ensures proper alignment */
+      align-items: center; /* Vertically aligns the loader */
+      justify-content: center; /* Horizontally centers the loader */
+      height: 100%;
+    }
+  }
+
+  .back-button {
+    position: relative;
+  }
+
+  @media @larger-than-tablet {
+    .input {
+      padding: 1em;
+    }
+
+    .submit-button-auth {
+      button {
+        padding: 1.5em;
+      }
+    }
+  }
+
+  @media @mobile-iphone14 {
+    .ant-form-item .submit-button-auth .css-dev-only-do-not-override-m4timi {
+      width: 100% !important;
+    }
+
+    .input {
+      padding: 0.75em;
+    }
+
+    .submit-button-auth {
+      button {
+        font-size: 0.938rem !important;
+      }
+    }
+
+    .chkbox {
+      font-size: smaller !important;
+    }
+
+    .forgot-password-link {
+      font-size: smaller !important;
+      width: 55% !important;
+    }
+  }
+}

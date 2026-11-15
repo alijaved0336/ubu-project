@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrate Scanflow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #anchor {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #anchor iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Proceed button as floating overlay */
+        #completeButton {
+            display: none;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+            font-weight: 700;
+            border: none;
+            height: 44px;
+            padding: 0 16px;
+            font-size: 16px;
+            border-radius: 8px;
+            color: white;
+            background-color: rgb(0, 133, 121);
+            cursor: pointer;
+            z-index: 99999;
+        }
+    </style>
+</head>
+<body>
+    <div id="anchor">
+        <button id="completeButton">Proceed</button>
+    </div>
+
+    <script>
+        var token = "{{token}}";
+        var height = "{{height}}";
+        var inches = "{{inches}}";
+        var weight = "{{weight}}";
+        var age = "{{age}}";
+        var gender = "{{gender}}";
+        var orgId = "{{orgId}}";
+
+        function openScanflow() {
+            setTimeout(() => {
+                const anchor = document.getElementById('anchor');
+                anchor.innerHTML = document.getElementById('completeButton').outerHTML; // Keep button in DOM
+                const scanflow = document.createElement('iframe');
+                scanflow.src = `https://www.platform.bodygram.com/${orgId}/scan?token=${token}&system=imperial&height=${height}&inches=${inches}&weight=${weight}&age=${age}&gender=${gender}&screens=scan&remove-header=true`;
+                scanflow.setAttribute("allow", "camera; microphone; gyroscope; accelerometer; magnetometer;");
+                scanflow.setAttribute("sandbox", "allow-scripts allow-same-origin allow-forms allow-popups allow-modals");
+                anchor.prepend(scanflow);
+            }, 200);
+        }
+
+        function closeScanflow() {
+            const anchor = document.getElementById('anchor');
+            if (anchor.firstChild && anchor.firstChild.tagName === 'IFRAME') {
+                anchor.removeChild(anchor.firstChild);
+            }
+            window.webkit.messageHandlers.jsHandler.postMessage("close");
+        }
+
+        window.addEventListener('message', (event) => {
+            const { type, payload } = event.data;
+            if (!type) return;
+
+            if (type === 0) {
+                closeScanflow();
+            }
+            if (type === 2) {
+                document.getElementById('completeButton').style.display = 'block';
+                window.webkit.messageHandlers.jsHandler.postMessage("Bodygram-Success: " + JSON.stringify(payload));
+            }
+            if (type === 3) {
+                window.webkit.messageHandlers.jsHandler.postMessage("Bodygram-Error: " + JSON.stringify(payload));
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (e.target && e.target.id === 'completeButton') {
+                window.webkit.messageHandlers.jsHandler.postMessage("Bodygramscan-Completed");
+                e.target.style.display = 'none';
+            }
+        });
+
+        window.addEventListener('load', openScanflow);
+    </script>
+</body>
+</html>

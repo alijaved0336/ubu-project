@@ -1,0 +1,200 @@
+@import "/src/less/responsive-variables.less";
+.custom-input-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.checkbox-card 
+{
+  width: 40% !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+.ant-radio-checked .ant-radio-inner {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+.checkbox-text {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: #292d32b2;
+}
+
+
+.inf-form-pdiv {
+  height: 100%;
+  width: 100%;
+
+  .input-field {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent;
+    border-bottom: #696c7080;
+  }
+  
+
+  .input-error {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #ffe6e6;
+    border-bottom: #696c7080;
+  }
+  .inf-demographics {
+    width: inherit;
+
+    .inf-demographics-text {
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 28.8px;
+      text-align: left;
+      color: #292d32;
+    }
+    .inf-demographics-text-desc {
+      font-family: Inter;
+      color: #292d32;
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 25.6px;
+      margin-top: -15px;
+      text-align: left;
+    }
+    .inf-demographics-child {
+      .inf-demographics-text2 {
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 28.8px;
+        text-align: left;
+        color: #777980;
+      }
+      .inf-geo-loc-text {
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+
+        color: #292d32b2;
+      }
+      .inf-demographics-text2-ques {
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-weight: 700 !important;
+        line-height: 22.4px;
+        text-align: left;
+
+        color: #292d32;
+      }
+      .inf-demographics-text2-desc {
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 22.4px;
+        margin-top: -15px;
+        text-align: left;
+        color: #292d32b2;
+      }
+
+      .inf-geo-options {
+        display: flex;
+        flex-direction: column;
+        .inf-geo-options-2 {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1%;
+          .inf-geo-radiogroup-last {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: inherit;
+            min-width: 100%;
+          }
+          .inf-geo-radiogroup {
+            display: flex;
+            flex-wrap: wrap;
+            width: inherit;
+            min-width: 100%;
+
+            margin-top: 1%;
+            @media @larger-than-tablet {
+              .inf-demographic-item {
+                width: 25% !important;
+              }
+            }
+            @media @tablet {
+              .inf-demographic-item {
+                width: 30% !important;
+                margin-bottom: 5px;
+              }
+            }
+            @media @mobile-iphone14 {
+              .inf-demographic-item {
+                width: 100% !important;
+                margin-bottom: 5px;
+              }
+            }
+            @media only screen and (min-width: 430px) and (max-width: 483px) {
+              .inf-demographic-item {
+                width: 45% !important;
+              }
+            }
+            .inf-demographic-item {
+              width: 25%;
+              margin-top: 10px;
+              align-items: center;
+            }
+          }
+        }
+      }
+      .inf-demographics-options {
+        .inf-demographics-radiogroup {
+          display: flex;
+          flex-wrap: wrap;
+          width: inherit;
+          min-width: 100%;
+
+          @media @larger-than-tablet {
+            .inf-demographic-item {
+              width: 25% !important;
+            }
+          }
+          @media @tablet {
+            .inf-demographic-item {
+              width: 30% !important;
+              margin-bottom: 5px;
+            }
+          }
+          @media @mobile-iphone14 {
+            .inf-demographic-item {
+              width: 100% !important;
+              margin-bottom: 5px;
+            }
+          }
+          @media only screen and (min-width: 430px) and (max-width: 483px) {
+            .inf-demographic-item {
+              width: 45% !important;
+            }
+          }
+          .inf-demographic-item {
+            width: 25% !important; 
+            margin-top: 10px;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

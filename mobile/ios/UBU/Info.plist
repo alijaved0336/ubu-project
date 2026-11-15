@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1530463121224109</string>
+				<string>com.googleusercontent.apps.1033811774354-qlon4roh2ait85ate7mslhrnl4p81j7p</string>
+				<string>ig1216585763046770</string>
+				<string>ubuplatforms</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1530463121224109</string>
+	<key>FacebookClientToken</key>
+	<string>2ea999c7eac91e1b8ff1b08242cd99d6</string>
+	<key>FacebookDisplayName</key>
+	<string>UBU Testing</string>
+	<key>GIDClientID</key>
+	<string>1033811774354-qlon4roh2ait85ate7mslhrnl4p81j7p.apps.googleusercontent.com</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Manrope-Bold.ttf</string>
+		<string>Manrope-ExtraBold.ttf</string>
+		<string>Manrope-ExtraLight.ttf</string>
+		<string>Manrope-Light.ttf</string>
+		<string>Manrope-SemiBold.ttf</string>
+		<string>Manrope-Medium.ttf</string>
+		<string>Manrope-Regular.ttf</string>
+		<string>Manrope-RegularItalic.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+</dict>
+</plist>

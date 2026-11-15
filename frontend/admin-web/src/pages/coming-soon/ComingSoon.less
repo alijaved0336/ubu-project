@@ -1,0 +1,206 @@
+@import url("@src/less/variables.less");
+@import url("@src/less/responsive-variables.less");
+
+.coming-soon-container {
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - (@header-height));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("@src/assets/generice-bg.svg");
+  // background: url("https://ubu-staging.s3.us-east-2.amazonaws.com/assets/images/backgrounds/fabric-background.png")
+  //   no-repeat center center/cover;
+  background-color: #6e6e6e;
+  color: white;
+  font-family: "Serif", serif;
+  text-align: center;
+  overflow: hidden;
+
+  .coming-soon-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin: 0 auto;
+
+    h1 {
+      font-family: "Classy Vogue";
+      font-size: 6.75rem;
+      text-align: left;
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 115%;
+    }
+
+    .text-and-form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      .text {
+        width: 100%;
+        max-width: 670px;
+        text-align: left;
+        color: #fff;
+        -webkit-text-stroke-width: 0.15343914926052094;
+        -webkit-text-stroke-color: #fff;
+        font-family: Manrope;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.subscribe-form input {
+  font-family: Manrope;
+  padding: 0.75em 1.25em;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  flex-grow: 1;
+  min-width: 300px;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.01);
+  color: white;
+  backdrop-filter: blur(22px);
+}
+
+.subscribe-form input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.subscribe-form button {
+  font-family: Manrope;
+  padding: 0.75em 1.25em;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.coming-soon-banner {
+  margin-top: 80px;
+  padding: 10px 0;
+  background-color: rgb(237, 171, 48);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 110%;
+  text-align: center;
+  overflow: hidden;
+  transform: rotate(-5deg);
+  transform-origin: center;
+  border: 1px solid white;
+  .banner-text {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-family: Manrope;
+  }
+}
+
+.coming-soon-banner span {
+  display: inline-block;
+  white-space: nowrap;
+  color: transparent;
+}
+
+.coming-soon-banner span::after {
+  content: "COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON | COMING SOON";
+  font-size: 1.25rem;
+  white-space: nowrap;
+  color: black;
+}
+
+.notify-button {
+  height: 60%;
+}
+
+.toggle-label{
+  font-family: Manrope;
+  font-size: 1rem;
+  border: none;
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.01);
+  color: white;
+  cursor: pointer;
+  padding-top: 3px;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 1052px) {
+  .coming-soon-container {
+    .coming-soon-content {
+      h1 {
+        text-align: center;
+        font-size: 5rem;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+@media @large-tablet {
+  .coming-soon-container {
+    .coming-soon-content {
+      .text-and-form {
+        flex-direction: column;
+        .text {
+          text-align: center;
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
+
+@media @mobile-iphone14 {
+  .coming-soon-container {
+    .coming-soon-content {
+      h1 {
+        font-size: 3.5rem;
+      }
+      .text-and-form {
+        .text {
+          font-size: 1rem;
+        }
+        .subscribe-form {
+          align-self: stretch;
+          flex-direction: column;
+          align-items: center;
+          input {
+            min-width: auto;
+            align-self: stretch;
+          }
+        }
+      }
+    }
+  }
+}

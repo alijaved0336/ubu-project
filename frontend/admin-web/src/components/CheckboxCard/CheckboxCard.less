@@ -1,0 +1,91 @@
+@import "/src/less/responsive-variables.less";
+.custom-input-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.checkbox-option-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+
+.inf-demographics-radiogroup-2 {
+  
+  .ant-checkbox-inner {
+    position: absolute !important;
+    bottom: 35px;
+    width: 17.5px !important;
+    height: 17.5px !important;
+    right: -10px;
+  }
+  .card-main {
+    background-color: #FAFAFA;
+    width: 340px !important;
+    min-height: 140px;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 5%;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #1e1e1e !important;
+    border-color: #1e1e1e !important;
+  }
+}
+
+.card-main-checked {
+  border: 1px solid #1e1e1e;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.checkbox-desc-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.813rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1e1e1eb2;
+}
+
+.inf-demographics-radiogroup-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  min-width: 100%;
+
+  @media @larger-than-tablet {
+    .inf-demographic-item {
+      width: 25% !important;
+    }
+  }
+  @media @tablet {
+    .inf-demographic-item {
+      width: 30% !important;
+      margin-bottom: 5px;
+    }
+  }
+  @media @mobile-iphone14 {
+    .inf-demographic-item {
+      width: 100% !important;
+      margin-bottom: 5px;
+    }
+  }
+  @media only screen and (min-width: 430px) and (max-width: 483px) {
+    .inf-demographic-item {
+      width: 45% !important;
+    }
+  }
+  .inf-demographic-item {
+    width: 30%;
+    margin-top: 10px;
+  }
+}

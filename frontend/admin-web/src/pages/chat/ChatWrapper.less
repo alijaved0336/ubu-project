@@ -1,0 +1,226 @@
+@import url("../../less/responsive-variables.less");
+
+
+
+    .user-chat-divider {
+        margin: 0;
+    }
+
+    .chat-box-container {
+        width: 85%;
+        height: 100%;
+
+        .chat-container {
+            padding: 16px;
+            width: 100%;
+
+            .is-receiver-layout {
+                width: 100%;
+                justify-content: end;
+            }
+
+            .user-chat-header {
+                width: 100%;
+
+                .remove-child {
+                    width: inherit;
+                    justify-content: end;
+                    align-items: end;
+                }
+
+                .user-chat-header-img.placeholder {
+                    // width: 40px;  
+                    // height: 40px;  
+                    background-color: #ccc;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.125rem;
+                    color: white;
+                    border-radius: 50%;
+                }
+
+                .user-chat-header-text {
+                    font-family: sans-serif;
+                    font-size: 0.875rem;
+                    font-weight: 500;
+                    line-height: 22px;
+                    text-align: left;
+                }
+
+                .user-chat-header-btn1 {
+                    height: 36px;
+                    padding: 8px 12px;
+                    border-radius: 8px;
+                    opacity: 0px;
+                    background: #000000;
+                    font-family: sans-serif;
+                    font-size: 0.875rem;
+                    font-weight: 200;
+                    line-height: 20px;
+                    letter-spacing: 0.005em;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+
+                .user-chat-header-btn2 {
+                    height: 36px;
+                    padding: 8px 12px;
+                    border-radius: 8px;
+
+                    .ant-btn-icon {
+                        display: inline-flex;
+                    }
+                }
+            }
+
+            .user-chat-header-img {
+                width: 50px;
+                height: 50px;
+                border-radius: 170px;
+                object-fit: contain;
+            }
+
+            .user-chat-content {
+                height: 100%;
+                // max-height: 700px;
+                overflow-y: scroll;
+
+                scrollbar-width: none; /* For Firefox */
+                -ms-overflow-style: none; /* For Internet Explorer and Edge */
+                &::-webkit-scrollbar {
+                    width: 4px;
+                    display: none; /* For Chrome, Safari, and Edge */
+                }
+
+                .chat-content-img.placeholder {
+
+                    background-color: #ccc;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.125rem;
+                    color: white;
+                    border-radius: 50%;
+                }
+
+                .chat-container {
+                    width: 100%;
+
+                    .chat-content-img {
+                        width: 50px;
+                        height: 50px;
+                        object-fit: contain;
+                        border-radius: 100px;
+                    }
+
+                    .chat-text {
+                        font-family: sans-serif;
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        line-height: 18.02px;
+                        text-align: left;
+                        border-radius: 0px 6.55px 6.55px 6.55px;
+                        padding: 8px;
+                    }
+
+                    .chat-timestamp {
+                        font-family: sans-serif;
+                        font-size: 0.625rem;
+                        font-weight: 500;
+                        line-height: 16.38px;
+                        text-align: left;
+                        color: #666666;
+
+                    }
+
+                    .chat-timestamp-tick {
+                        width: 100%;
+                    }
+
+                    .is-sender {
+                        background: #EBEBEB;
+                    }
+
+                    .is-receiver {
+                        background-color: #000000;
+                        color: white
+                    }
+                }
+            }
+
+            .user-chat-footer {
+                .add-btn {
+                    border: none;
+                }
+
+                .file-uploader {
+                    display: none;
+                    background-image: url('../../assets/plus-icon.png');
+                }
+
+                .chat-input-container {
+                    width: 100%;
+                }
+
+                .chat-input {
+                    background: #F3F4F6;
+                    font-family: sans-serif;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: 18.02px;
+                    text-align: left;
+                    color: #9CA3AF;
+
+                }
+
+                .send-btn {
+                    font-family: sans-serif;
+                    font-size: 0.875rem;
+                    font-weight: 300;
+                    line-height: 18.02px;
+                    text-align: left;
+                    color: #F3F4F6;
+                    background-color: black;
+                    width: 84px;
+                    box-shadow: 0px 0.82px 1.64px 0px #03071205;
+                    border-radius: 6.5px;
+                }
+            }
+        }
+
+
+
+
+    }
+
+ 
+
+.null-msg-parent {
+    width: 100%;
+    height: 100%;
+
+    .null-msg-text {
+        color: #414141;
+        text-align: center;
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 133.333% */
+    }
+
+    .null-msg-desc {
+        color: #414141;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        opacity: 80%;
+        /* 171.429% */
+    }
+}

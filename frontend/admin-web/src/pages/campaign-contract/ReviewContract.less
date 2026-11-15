@@ -1,0 +1,116 @@
+@import url("@src/less/variables.less");
+
+.review-contract-page {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-family: Manrope;
+  height: calc(
+    100vh - ((@header-height) + (2 * (@dashboard-content-container-padding)))
+  );
+
+  .page-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;
+    font-family: "Inter";
+  }
+
+  .pdf-viewer-container {
+    flex: 2;
+    padding: 0 20px;
+    overflow-y: hidden;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 90%;
+
+    .pdf-wrapper {
+      flex: 1;
+      overflow: hidden;
+      .rpv-core__viewer {
+        height: 98% !important;
+        .rpv-core__text-layer-text {
+          font-family: Manrope, sans-serif !important;
+        }
+      }
+    }
+
+    .buttons-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+    }
+  }
+
+  .details-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    gap: 2rem;
+
+    .ubu-title {
+      width: 100%;
+      // height: 13vh;
+      text-align: center;
+      color: black;
+      font-size: 2.625rem;
+      font-family: "Classy Vogue";
+      font-weight: 400;
+      // line-height: 116.83px;
+      word-wrap: break-word;
+    }
+    .details-box {
+      background-color: white;
+      padding: 1.5rem 1rem;
+      border-radius: 8px;
+      box-shadow: 0px 6px 12px 0px rgba(30, 30, 30, 0.1);
+      // margin-bottom: 20px;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 968px) {
+  .review-contract-page {
+    flex-direction: column;
+    height: auto;
+    .pdf-viewer-container,
+    .details-container {
+      width: 100%;
+      padding: 10px;
+    }
+    .buttons-container {
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  }
+}

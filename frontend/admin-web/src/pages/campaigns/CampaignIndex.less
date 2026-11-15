@@ -1,0 +1,200 @@
+@import url("/src/less/responsive-variables.less");
+
+@media @mobile-iphone14 {
+  .campaign-card {
+    width: 250px !important;
+  }
+  .campaign-index-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .campaign-details {
+    grid-template-columns: repeat(2, 1fr) !important; /* Max 4 items per row */
+  }
+  .gray-color {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+.campaign-index {
+  .no-results {
+    text-align: center;
+    margin-top: 75px;
+  }
+
+  .search-bar-container {
+    width: 46%;
+  }
+
+  .create-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: red;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  .gray-color {
+    background-color: #e7e5e5 !important;
+    color: black !important;
+    margin-left: 1.9%;
+    margin-bottom: 1%;
+  }
+
+  .search-bar {
+    width: 50%;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    padding: 10px 20px 0px 10px;
+  }
+
+  .pagination button {
+    padding: 4px 8px;
+    margin: 0 5px;
+    font-size: 0.938rem;
+    cursor: pointer !important;
+    color: black;
+    font-weight: bold;
+  }
+
+  .pagination button.active {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+  }
+
+  .campaign-index-table {
+    width: 100%;
+  }
+
+  .campaign-index-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .campaign-index-table th,
+  .campaign-index-table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-family: Manrope;
+  }
+
+  .campaign-index-table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .campaign-index-table td {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .campaign-index-table tbody tr {
+    transition: 0.3s ease, transform 0.3s ease;
+  }
+  .campaign-index-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  .campaign-index-table .status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .campaign-index-table .status.pending {
+    background-color: #f9d37a;
+    color: #6d4c00;
+  }
+
+  .campaign-index-table .status.payment-held {
+    background-color: #FFC107;
+    color: #6d4c00;
+  }
+  
+  .campaign-index-table .status.contract-signing {
+    background-color: #000;
+    color: #fff;
+  }
+  .campaign-index-table .status.in-progress {
+    background-color: #fff53c;
+    color: #000000;
+  }
+
+  .campaign-index-table .status.accepted {
+    background-color: #3c783c;
+    color: #fff;
+  }
+
+  .campaign-index-table .status.in-progress {
+    background-color: #d4e4ff;
+    color: #0056d2;
+  }
+
+  .campaign-index-table .status.submitted {
+    background-color: #c8f7c8;
+    color: #2d7500;
+  }
+
+  .campaign-index-table .status.publishing {
+    background-color: #56666B;
+    color: #ebebeb;
+  
+  }
+  .campaign-index-table .status.funds-transferred {
+    background-color: #d4f7e4;
+    color: #097a59;
+  }
+  .campaign-index-table .status.rejected {
+    background-color: #f5d3d4;
+    color: #bf3c38;
+  }
+
+  .campaign-index-table .status.completed {
+    background-color: #d4f7e4;
+    color: #097a59;
+  }
+
+  
+
+
+  .campaign-index-table .status.disputed {
+    background-color: #f8d4d4;
+    color: #992828;
+  }
+
+  .campaign-index-table .actions {
+    gap: 10px;
+  }
+
+  .campaign-index-table .actions i {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+}
+
+.campaign-index-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}

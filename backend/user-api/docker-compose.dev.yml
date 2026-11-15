@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  ubu-backend:
+    container_name: ubu-user-api
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 3001:3001
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=development
+    networks:
+      - ubu_network
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
+
+networks:
+  ubu_network:
+    driver: bridge
+

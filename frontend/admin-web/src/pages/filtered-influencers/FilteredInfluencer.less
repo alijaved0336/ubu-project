@@ -1,0 +1,104 @@
+.footerDiv {
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+  margin-top: 5%;
+}
+
+.ai-matches-btn
+{
+  background-color: #273B4A !important;
+}
+.filtered-influencer-page {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+
+  .filtered-influencer-content-boundary {
+    // width: 80%;
+    // margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    // margin-bottom: 20px;
+    color: #333;
+  }
+
+  .loader {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .no-results {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #666;
+    margin-top: 75px;
+  }
+
+  .segment-back-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #d9d9d9;
+    color: #333;
+  }
+
+  .influencers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+      gap: 15px;
+    }
+
+    @media (max-width: 480px) {
+      gap: 10px;
+    }
+  }
+
+  .search-container {
+    width: 50%;
+    & > * {
+      height: 100%;
+    }
+  }
+}
+
+.filter-segment i {
+  margin-right: 8px;
+  font-size: 0.75rem;
+}
+
+.segment-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.segment-filter-submit {
+  background-color: black;
+  color: white;
+}
+
+.segment-filter-submit:hover,
+.segment-filter-cancel:hover {
+  background-color: white !important;
+  color: black !important;
+  border-color: #000 !important;
+}

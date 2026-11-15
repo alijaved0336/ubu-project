@@ -1,0 +1,65 @@
+@import url("@src/less/responsive-variables.less");
+
+.p-div {
+  position: relative;
+  // margin: 30px 10px;
+  // width: 85%;
+
+  @media @large-desktop {
+    // .flex-middle{
+    //     .flex-img{
+    //         // min-height: 60%;
+    //         width: 180px !important;
+    //     }
+    // }
+  }
+  // @media @large-tablet {
+  //   .slick-prev,
+  //   .slick-next {
+  //     color: black;
+  //   }
+  //   .flex-middle {
+  //     width: 100% !important;
+  //     flex-wrap: nowrap !important;
+  //     .flex-img {
+  //       // min-height: 60%;
+  //       width: 100% !important;
+  //     }
+  //   }
+  // }
+
+  @media (max-width: 660px) {
+    .flex-text {
+      font-size: 40px !important;
+    }
+  }
+
+  @media @mobile-iphone14 {
+    .flex-text {
+      font-size: 28px !important;
+    }
+  }
+
+  .flex-text {
+    font-family: Classy Vogue;
+    font-size: 3.125rem;
+    font-weight: 400;
+    line-height: 55.3px;
+    text-align: center;
+  }
+
+  .flex-img {
+    // width: 100% !important;
+    width: 17%;
+
+    height: 300px;
+    object-fit: cover;
+    // border-radius: 10px;
+  }
+  .flex-middle {
+    min-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+}

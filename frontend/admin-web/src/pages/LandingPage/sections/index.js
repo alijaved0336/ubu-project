@@ -1,0 +1,9 @@
+export { default as HeroSection } from "./HeroSection/HeroSection";
+export { default as ImageCard } from "./ImageCard/ImageCard";
+export { default as DownloadOurAppSection } from "./DownloadOurAppSection/DownloadOurAppSection";
+export { default as WelcomeSection } from "./WelcomeSection/WelcomeSection";
+export { default as WhatHappensSection } from "./WhatHappensSection/WhatHappensSection";
+export { default as TrendingSection } from "./TrendingSection/TrendingSection";
+export { default as RegisterCreatorSection } from "./RegisterCreatorSection/RegisterCreatorSection";
+export { default as ShopSection } from "./ShopSection/ShopSection";
+export { default as RegisterBrandSection } from "./RegisterBrandSection/RegisterBrandSection";

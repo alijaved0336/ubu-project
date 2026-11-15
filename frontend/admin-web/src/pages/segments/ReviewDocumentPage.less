@@ -1,0 +1,125 @@
+@import url("@src/less/variables.less");
+
+.review-document-page {
+  display: flex;
+  height: calc(
+    100vh - ((@header-height) + (2 * (@dashboard-content-container-padding)))
+  );
+  overflow: hidden;
+  width: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-family: "Inter";
+  .pdf-viewer-container {
+    padding: 0 1rem;
+    flex: 2;
+    gap: 1rem;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    .rpv-core__viewer {
+      height: auto !important;
+      flex: 1;
+      overflow: auto;
+    }
+  }
+  .details-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 2rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: #fafafa;
+    .details-box {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .details-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .details-box ul li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1rem; /* Set a better font size for the delete button */
+    cursor: pointer;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Add spacing between content and buttons */
+  }
+
+  .back-btn {
+    padding: 10px 20px;
+    border: 1px solid #d3d3d3; /* Off-grey border */
+    background-color: transparent;
+    color: #7a7a7a; /* Grey text */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .send-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    //   font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .back-btn:hover {
+    border-color: #a9a9a9; /* Slightly darker grey on hover */
+    color: #555555; /* Darker text color on hover */
+  }
+
+  .send-btn:hover {
+    background-color: #333333; /* Darker black on hover */
+  }
+}
+
+@media (max-width: 968px) {
+  /* For smaller screens, stack the sections vertically */
+  .review-document-page {
+    flex-direction: column;
+    height: auto;
+    .pdf-viewer-container,
+    .details-container {
+      width: 100%; /* Full width for each section */
+      padding: 10px; /* Adjust padding for mobile screens */
+    }
+    .buttons-container {
+      // flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .back-btn,
+    .send-btn {
+      // width: 100%;
+      text-align: center;
+      margin-bottom: 10px; /* Add margin between buttons */
+    }
+  }
+}

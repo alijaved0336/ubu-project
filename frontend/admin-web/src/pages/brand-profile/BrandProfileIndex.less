@@ -1,0 +1,138 @@
+.profile-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      gap: 2rem;
+  
+      .card {
+        border: 1px solid rgba(30, 30, 30, 0.08);
+  
+        flex-grow: 1;
+        width: 100%;
+        padding: 2rem 2rem;
+        border-radius: 10px;
+      }
+  
+      .profile-card {
+        .profile-image {
+          object-fit: contain;
+          border: 6px solid #0000001A;
+          border-radius: 50%;
+          width: 90px;
+          height: 90px;
+        }
+      }
+
+      .reviews-card {
+        h3 {
+          font-size: 2.188rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .brand-avatar-fallback{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 6px solid #0000001A;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }   
+
+    .user-avatar-fallback{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 6px solid #0000001A;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }   
+
+    .image-gallery {
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    .image-tabs {
+      display: flex;
+      justify-content: start;
+      gap: 10px;
+
+      span {
+        cursor: pointer;
+        padding: 10px 0;
+        border-bottom: 2px solid transparent;
+
+        &.active {
+          border-bottom: 2px solid #333;
+        }
+        &.facebook {
+          cursor: not-allowed;
+        }
+        &.facebook:hover {
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .profile-page-images {
+      padding: 20px 0;
+
+      .media-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+
+        @media (max-width: 768px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 468px) {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      .p-media-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-image {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          aspect-ratio: 1;
+          object-fit: cover;
+        }
+        video {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+
+      .no_profile_data {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        // margin-top: 5%;
+      }
+    }
+  } 
+}

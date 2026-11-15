@@ -1,0 +1,1687 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    " (%lld%%)" : {
+
+    },
+    " and " : {
+
+    },
+    " and consent to the use of the " : {
+
+    },
+    " in" : {
+
+    },
+    " lb" : {
+
+    },
+    " years old" : {
+
+    },
+    " yrs" : {
+
+    },
+    "-" : {
+
+    },
+    "." : {
+
+    },
+    "..." : {
+
+    },
+    "“%@” will be added to your requests." : {
+
+    },
+    "(50)" : {
+
+    },
+    "#%@" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ (%lld%%)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$lld%%)"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ wants to become %@ of %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ wants to become %2$@ of %3$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld (%lld%%)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld (%2$lld%%)"
+          }
+        }
+      }
+    },
+    "%lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld"
+          }
+        }
+      }
+    },
+    "%lld request%@ matching filter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld request%2$@ matching filter"
+          }
+        }
+      }
+    },
+    "%lld request%@ waiting for approval" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld request%2$@ waiting for approval"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+
+    },
+    "%llds" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%llds"
+          }
+        }
+      }
+    },
+    "••••  ••••  ••••  %@" : {
+
+    },
+    "😅 Max Length Reached!" : {
+
+    },
+    "$%@" : {
+
+    },
+    "0" : {
+
+    },
+    "1. Open the product page on Amazon." : {
+
+    },
+    "2. Tap the “Share” icon (located near the middle right next to the “Favorite” button)." : {
+
+    },
+    "3. Select 'Copy Link' to copy the product URL." : {
+
+    },
+    "5.0" : {
+
+    },
+    "15% off" : {
+
+    },
+    "Account Holder Name" : {
+
+    },
+    "Action Required" : {
+
+    },
+    "Add Account Details" : {
+
+    },
+    "Add Photo" : {
+
+    },
+    "Add Product" : {
+
+    },
+    "Add this product" : {
+
+    },
+    "Add to cart" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir al carrito"
+          }
+        }
+      }
+    },
+    "Additional Information" : {
+
+    },
+    "Address" : {
+
+    },
+    "Affiliate Revenue" : {
+
+    },
+    "Age" : {
+
+    },
+    "Already have an account?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Ya tienes una cuenta?"
+          }
+        }
+      }
+    },
+    "Amount Withdrawn" : {
+
+    },
+    "Anything we missed?" : {
+
+    },
+    "Approve All" : {
+
+    },
+    "Associated Products" : {
+
+    },
+    "Associated Products:" : {
+
+    },
+    "Attach Product" : {
+
+    },
+    "Attachments" : {
+
+    },
+    "Available" : {
+
+    },
+    "Available Balance:" : {
+
+    },
+    "Available Colors" : {
+
+    },
+    "Available Sizes" : {
+
+    },
+    "AVARA Store" : {
+
+    },
+    "Back" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver"
+          }
+        }
+      }
+    },
+    "BANK" : {
+
+    },
+    "Body Measurements" : {
+
+    },
+    "Browse All" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorar todo"
+          }
+        }
+      }
+    },
+    "Budget:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presupuesto:"
+          }
+        }
+      }
+    },
+    "By Checking this box, you agree to UBU " : {
+
+    },
+    "Calculating Matches" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculando coincidencias"
+          }
+        }
+      }
+    },
+    "Campaign Matches: When your profile aligns with a brand’s campaign requirements, you will be notified via email and within our communications module on the platform. This ensures you’re always in the loop about potential opportunities.\n\nQualified Match Notifications: Even if you aren't selected for a specific campaign, but your profile matches a significant percentage of the brand’s search parameters, we’ll notify you. In these cases, you’ll have the opportunity to reach out directly to the brand and offer your services, knowing you’re a strong contender for their campaign." : {
+
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Cancel All" : {
+
+    },
+    "Choose a password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige una contraseña"
+          }
+        }
+      }
+    },
+    "Choose Color" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir color"
+          }
+        }
+      }
+    },
+    "Choose Password" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir una contraseña"
+          }
+        }
+      }
+    },
+    "Choose Photo" : {
+
+    },
+    "Choose Size" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir tamaño"
+          }
+        }
+      }
+    },
+    "Choose the profile to continue" : {
+
+    },
+    "Choose the profile you want to switch" : {
+
+    },
+    "City" : {
+
+    },
+    "Coming Soon..." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximamente..."
+          }
+        }
+      }
+    },
+    "Complete your registration on our website by signing in with your existing credentials." : {
+
+    },
+    "Complextion" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complexión"
+          }
+        }
+      }
+    },
+    "Confirm Password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "confirmar Contraseña"
+          }
+        }
+      }
+    },
+    "Connect with Facebook" : {
+
+    },
+    "Connect with Instagram" : {
+
+    },
+    "Connect with tiktok" : {
+
+    },
+    "Connect Your social accounts, and allow access to your media and files" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecta tus cuentas sociales y permite el acceso a tus medios y archivos"
+          }
+        }
+      }
+    },
+    "Connect your Social Media" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecta tus redes sociales"
+          }
+        }
+      }
+    },
+    "Connected Account" : {
+
+    },
+    "Continue" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        }
+      }
+    },
+    "Continue to Store" : {
+
+    },
+    "Create new password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear nueva contraseña"
+          }
+        }
+      }
+    },
+    "Create Post" : {
+
+    },
+    "Create Profile" : {
+
+    },
+    "Create your new\naccount" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea tu nuevo\ncuenta"
+          }
+        }
+      }
+    },
+    "Create your new\nprofile" : {
+
+    },
+    "Currency" : {
+
+    },
+    "Date must be in valid format with 4-digit year" : {
+
+    },
+    "Date of Birth" : {
+
+    },
+    "Deleted Profiles" : {
+
+    },
+    "Description" : {
+
+    },
+    "Didn’t get the code?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿No recibiste el código?"
+          }
+        }
+      }
+    },
+    "Don't have an account?" : {
+
+    },
+    "Don't worry! it happens. Please enter the code sent to \"Albertstevano@gmail.com\"" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡No te preocupes! Sucede. Por favor introduce el código enviado a \"Albertstevano@gmail.com\""
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        }
+      }
+    },
+    "Edit Body Measurements" : {
+
+    },
+    "Edit Questionnaires" : {
+
+    },
+    "email" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "correo electrónico"
+          }
+        }
+      }
+    },
+    "Email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correo electrónico"
+          }
+        }
+      }
+    },
+    "Email Address" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dirección de correo electrónico"
+          }
+        }
+      }
+    },
+    "Email cannot be empty" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El correo electrónico no puede estar vacío."
+          }
+        }
+      }
+    },
+    "Ensure you can hear the voice instruction" : {
+
+    },
+    "Enter %@..." : {
+
+    },
+    "Enter a valid email" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduzca un correo electrónico válido"
+          }
+        }
+      }
+    },
+    "Enter amount" : {
+
+    },
+    "Enter code sent to email address" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese el código enviado a la dirección de correo electrónico"
+          }
+        }
+      }
+    },
+    "Enter Measurements Manually" : {
+
+    },
+    "Enter tag..." : {
+
+    },
+    "Enter your registered email below to receive password reset instruction" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese su correo electrónico registrado a continuación para recibir instrucciones para restablecer su contraseña"
+          }
+        }
+      }
+    },
+    "Enter your registered email below to receive password reset instructions" : {
+
+    },
+    "Explore Now" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorar ahora"
+          }
+        }
+      }
+    },
+    "Facebook Gallery" : {
+
+    },
+    "Failed to load video" : {
+
+    },
+    "Family Profiles" : {
+
+    },
+    "First Name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre"
+          }
+        }
+      }
+    },
+    "First name cannot be empty" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El nombre no puede estar vacío"
+          }
+        }
+      }
+    },
+    "First name is required." : {
+
+    },
+    "Follow" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguir"
+          }
+        }
+      }
+    },
+    "Following" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiendo"
+          }
+        }
+      }
+    },
+    "Forgot Password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Has olvidado tu contraseña?"
+          }
+        }
+      }
+    },
+    "Forgot password?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Has olvidado tu contraseña?"
+          }
+        }
+      }
+    },
+    "Future dates are not allowed" : {
+
+    },
+    "Gender" : {
+
+    },
+    "Get Details" : {
+
+    },
+    "Height" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altura"
+          }
+        }
+      }
+    },
+    "Height:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altura:"
+          }
+        }
+      }
+    },
+    "How to scan successfully" : {
+
+    },
+    "I agree to the " : {
+
+    },
+    "I agree to the  %@ and %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I agree to the  %1$@ and %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acepto %1$@ y %2$@"
+          }
+        }
+      }
+    },
+    "I Agree with " : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estoy de acuerdo con"
+          }
+        }
+      }
+    },
+    "If the scan gets stuck, you can switch to manual measurement entry anytime." : {
+
+    },
+    "Image not available" : {
+
+    },
+    "in" : {
+
+    },
+    "information that it may collect and use about you." : {
+
+    },
+    "Instagram Gallery" : {
+
+    },
+    "Invalid date" : {
+
+    },
+    "Is there any unique or relevant information about yourself that we haven’t asked about, but that you think might help you match with potential users and brands? (Optional) Please use the space below to share anything you feel could enhance your profile and match you with the right opportunities." : {
+
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llave"
+          }
+        }
+      }
+    },
+    "Last Name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apellido"
+          }
+        }
+      }
+    },
+    "Last name cannot be empty" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El apellido no puede estar vacío"
+          }
+        }
+      }
+    },
+    "Last name is required." : {
+
+    },
+    "Limited Stock" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock limitado"
+          }
+        }
+      }
+    },
+    "Loading..." : {
+
+    },
+    "LOGIN" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ACCESO"
+          }
+        }
+      }
+    },
+    "Login Result" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultado de inicio de sesión"
+          }
+        }
+      }
+    },
+    "Login to the revolution" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicie sesión en el revolución"
+          }
+        }
+      }
+    },
+    "Login with Instagram" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar sesión con Instagram"
+          }
+        }
+      }
+    },
+    "Logout" : {
+
+    },
+    "Make sure your phone is not " : {
+
+    },
+    "Match. Discover. Inspire." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fósforo. Descubrir. Inspirar."
+          }
+        }
+      }
+    },
+    "Measurements" : {
+
+    },
+    "Media" : {
+
+    },
+    "Message to Buyer (Optional)" : {
+
+    },
+    "MM/DD/YYYY" : {
+
+    },
+    "More from AVARA Store" : {
+
+    },
+    "muted." : {
+
+    },
+    "New Password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva contraseña"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próxima"
+          }
+        }
+      }
+    },
+    "No data found." : {
+
+    },
+    "No Image" : {
+
+    },
+    "No images available" : {
+
+    },
+    "No influencers found!" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡No se encontraron personas influyentes!"
+          }
+        }
+      }
+    },
+    "No Post found! Try adding by clicking on the new post " : {
+
+    },
+    "No product data available" : {
+
+    },
+    "No results found." : {
+
+    },
+    "Note:" : {
+
+    },
+    "Now lets fill in any blanks! Tell us about yourself" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ahora llenemos los espacios en blanco! Cuéntanos sobre ti"
+          }
+        }
+      }
+    },
+    "Now we are going to take 2 photos of you." : {
+
+    },
+    "OK" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DE ACUERDO"
+          }
+        }
+      }
+    },
+    "Once these details are provided, your account will be ready for use." : {
+
+    },
+    "Oops! Something went wrong on our side" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ups! Algo salió mal de nuestro lado"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+
+    },
+    "or continue with" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "o continuar con"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contraseña"
+          }
+        }
+      }
+    },
+    "Password cannot be empty" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La contraseña no puede estar vacía"
+          }
+        }
+      }
+    },
+    "Password must be at least 8 characters" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La contraseña debe tener al menos 8 caracteres"
+          }
+        }
+      }
+    },
+    "Passwords do not match" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las contraseñas no coinciden"
+          }
+        }
+      }
+    },
+    "Pending Requests" : {
+
+    },
+    "Permission Denied" : {
+
+    },
+    "Phone is Centered" : {
+
+    },
+    "Phone Number" : {
+
+    },
+    "Place the dot in the center by adjusting the device angle" : {
+
+    },
+    "Place your device at waist level" : {
+
+    },
+    "Please enter date of birth:" : {
+
+    },
+    "Please enter your measurements manually:" : {
+
+    },
+    "Please fill out the UBU Onboarding Questionnaire as accurately as possible. Select all options that resonate with you, as many questions allow for multiple answers. You can always return to update your responses." : {
+
+    },
+    "Please select a %@." : {
+
+    },
+    "Please select a region." : {
+
+    },
+    "Please select a valid date" : {
+
+    },
+    "Please select an option to indicate the extent to which you agree or disagree with each statement" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, selecciona una opción para indicar el grado en el que estás de acuerdo o en desacuerdo con cada afirmación"
+          }
+        }
+      }
+    },
+    "Post as %@" : {
+
+    },
+    "Post Name" : {
+
+    },
+    "Post Status" : {
+
+    },
+    "Posts" : {
+
+    },
+    "Press and hold an item, then drag it to rearrange the order as you like." : {
+
+    },
+    "Primary" : {
+
+    },
+    "Privacy Policy" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "política de privacidad"
+          }
+        }
+      }
+    },
+    "Proceed" : {
+
+    },
+    "Product" : {
+
+    },
+    "Publish" : {
+
+    },
+    "Pull To Refresh" : {
+
+    },
+    "Put your device vertically on the table" : {
+
+    },
+    "Quantity: %lld" : {
+
+    },
+    "Questionnaires" : {
+
+    },
+    "Re-Enter New Password" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver a ingresar la nueva contraseña"
+          }
+        }
+      }
+    },
+    "Read Less" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leer menos"
+          }
+        }
+      }
+    },
+    "Read More" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leer más"
+          }
+        }
+      }
+    },
+    "Recent Searches" : {
+
+    },
+    "Recover deleted Profiles" : {
+
+    },
+    "Region:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Región:"
+          }
+        }
+      }
+    },
+    "Register" : {
+
+    },
+    "Relation Requests" : {
+
+    },
+    "Relationship" : {
+
+    },
+    "Remove recent search" : {
+
+    },
+    "Request" : {
+
+    },
+    "Request For" : {
+
+    },
+    "Request Message: " : {
+
+    },
+    "Request to Buy" : {
+
+    },
+    "Required field" : {
+
+    },
+    "Required Fields" : {
+
+    },
+    "Resend it" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reenvialo"
+          }
+        }
+      }
+    },
+    "Resend Verification Email" : {
+
+    },
+    "Results not found" : {
+
+    },
+    "Retry" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rever"
+          }
+        }
+      }
+    },
+    "Save" : {
+
+    },
+    "Save Draft" : {
+
+    },
+    "Save Measurements" : {
+
+    },
+    "Search" : {
+
+    },
+    "Search all 3456 posts" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar en todas las 3456 publicaciones"
+          }
+        }
+      }
+    },
+    "Search by name or email" : {
+
+    },
+    "Search Language" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar idioma"
+          }
+        }
+      }
+    },
+    "Search Profiles" : {
+
+    },
+    "Search..." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar..."
+          }
+        }
+      }
+    },
+    "Searching..." : {
+
+    },
+    "See all Profiles" : {
+
+    },
+    "See All Profiles" : {
+
+    },
+    "See Your Matches" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver tus coincidencias"
+          }
+        }
+      }
+    },
+    "Select" : {
+
+    },
+    "Send Request" : {
+
+    },
+    "Set the volume to a level where you can hear the guidance." : {
+
+    },
+    "Set up your username and password, you can always change it later " : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configura tu nombre de usuario y contraseña, siempre podrás cambiarlos más tarde"
+          }
+        }
+      }
+    },
+    "Shape" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forma"
+          }
+        }
+      }
+    },
+    "Shape:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forma:"
+          }
+        }
+      }
+    },
+    "Shop as %@" : {
+
+    },
+    "Shop Now" : {
+
+    },
+    "Shop This Product" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compra este producto"
+          }
+        }
+      }
+    },
+    "Sign in" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar sesión"
+          }
+        }
+      }
+    },
+    "Sign In" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar sesión"
+          }
+        }
+      }
+    },
+    "Sign in as %@" : {
+
+    },
+    "Sign up" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inscribirse"
+          }
+        }
+      }
+    },
+    "SIGN UP" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INSCRIBIRSE"
+          }
+        }
+      }
+    },
+    "Sign-up is exclusively for consumers only." : {
+
+    },
+    "Skip For Now >>" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir por ahora >>"
+          }
+        }
+      }
+    },
+    "Sorted: Most Recent" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenado: Más reciente"
+          }
+        }
+      }
+    },
+    "Start" : {
+
+    },
+    "Steps to Add Product Link" : {
+
+    },
+    "Style:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estilo:"
+          }
+        }
+      }
+    },
+    "Summary and Submission" : {
+
+    },
+    "Survey Completed" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encuesta completada"
+          }
+        }
+      }
+    },
+    "Switch Profile" : {
+
+    },
+    "Switch to %@" : {
+
+    },
+    "Switch to creator" : {
+
+    },
+    "Switch to shopper" : {
+
+    },
+    "Tags" : {
+
+    },
+    "Tags allow you to categorize your posts and make them easily searchable. Use tags to help others quickly find related posts or topics. i.e. \"top10shirts\", \"summerstyle\"" : {
+
+    },
+    "Take Photo" : {
+
+    },
+    "Tell us about yourself" : {
+
+    },
+    "Terms & Conditions" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Términos y condiciones"
+          }
+        }
+      }
+    },
+    "Terms of Service" : {
+
+    },
+    "Thank you for joining the UBU Platform and completing your onboarding questionnaire!" : {
+
+    },
+    "There are no deleted profiles yet." : {
+
+    },
+    "There are no profiles added yet.\nTap “Create Profile” to add a new one." : {
+
+    },
+    "TikTok Gallery" : {
+
+    },
+    "To attach an Amazon product link, follow these steps:" : {
+
+    },
+    "Transaction" : {
+
+    },
+    "UBU" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UBU"
+          }
+        }
+      }
+    },
+    "UBU Onboarding Questionnaire" : {
+
+    },
+    "Update" : {
+
+    },
+    "Uploading in progress" : {
+
+    },
+    "View All >" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver todo >"
+          }
+        }
+      }
+    },
+    "View Requested Products" : {
+
+    },
+    "We appreciate your dedication to your craft and look forward to seeing you thrive on the UBU Platform. If you have any questions or need further assistance, please don’t hesitate to contact our support team." : {
+
+    },
+    "We appreciate your patience. Please try again in a few minutes." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agradecemos su paciencia. Por favor, inténtelo de nuevo en unos minutos."
+          }
+        }
+      }
+    },
+    "We are thrilled to have you as part of our diverse and vibrant community of creators. At UBU, we believe in the power of individuality and diversity, and we value the unique perspective you bring to our platform. Your responses will help us connect you with brands that resonate with your style, values, and audience" : {
+
+    },
+    "Weight" : {
+
+    },
+    "Weight:" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peso:"
+          }
+        }
+      }
+    },
+    "What Happens Next?" : {
+
+    },
+    "Where AI and e-commerce collide: perfect matches, curated picks, create, and earn." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donde la IA y el comercio electrónico chocan: combinaciones perfectas, selecciones seleccionadas, crea y gana."
+          }
+        }
+      }
+    },
+    "Withdraw" : {
+
+    },
+    "Withdraw Amount" : {
+
+    },
+    "Withdraw Date" : {
+
+    },
+    "Withdraw Funds" : {
+
+    },
+    "Withdrawals" : {
+
+    },
+    "x" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "x"
+          }
+        }
+      }
+    },
+    "Yes" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sí"
+          }
+        }
+      }
+    },
+    "You already have a account?" : {
+
+    },
+    "You are not registered as an influencer." : {
+
+    },
+    "You don't have an account?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿No tienes una cuenta?"
+          }
+        }
+      }
+    },
+    "You haven’t liked anything yet." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no has dado me gusta a nada."
+          }
+        }
+      }
+    },
+    "Your account is incomplete and requires additional information to proceed. Please provide the following details:" : {
+
+    },
+    "Your device is set!" : {
+
+    },
+    "Your email is not verified yet. Please verify your email to unlock all features and access your account fully." : {
+
+    },
+    "Your Requests" : {
+
+    },
+    "Zip Code" : {
+
+    },
+    "Zip Code must be 5 to 10 characters" : {
+
+    }
+  },
+  "version" : "1.0"
+}

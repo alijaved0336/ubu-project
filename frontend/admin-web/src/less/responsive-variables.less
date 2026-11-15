@@ -1,0 +1,41 @@
+@large-desktop-breakpoint: 1440px;
+@not-collapsed-desktop-breakpoint: 1340px;
+@collapsed-desktop-breakpoint: 1160px;
+
+@medium-desktop-breakpoint: 1255px;
+@small-desktop-breakpoint: 1024px;
+@large-tablet-breakpoint2: 930px;
+@tablet-breakpoint: 768px;
+@mobile-breakpoint-iphone14: 430px;
+
+@large-tablet-breakpoint: 992px;
+@small-tablet-breakpoint: 642px;
+@custom-small-tablet-breakpoint: 575px;
+@large-mobile-breakpoint: 575px;
+@medium-mobile-breakpoint: 510px;
+@mobile-breakpoint: 400px;
+
+@small-and-medium-desktop: ~'only screen and (min-width: @{small-desktop-breakpoint}) and (max-width: @{medium-desktop-breakpoint})';
+@medium-desktop: ~'only screen and (max-width: @{medium-desktop-breakpoint})';
+@large-desktop: ~'only screen and (max-width: @{large-desktop-breakpoint})';
+@larger-than-tablet: ~'only screen and (max-width: @{small-desktop-breakpoint})';
+@large-tablet: ~'only screen and (max-width: @{large-tablet-breakpoint})';
+@large-tablet2: ~'only screen and (max-width: @{large-tablet-breakpoint2})';
+@collapsed-desktop: ~'only screen and (max-width: @{collapsed-desktop-breakpoint})';
+@not-collapsed-desktop: ~'only screen and (max-width: @{not-collapsed-desktop-breakpoint})';
+@tablet-view: ~'only screen and (max-width: @{tablet-breakpoint})';
+
+
+
+
+
+
+@small-tablet: ~'only screen and (max-width: @{small-tablet-breakpoint})';
+@custom-small-tablet: ~'only screen and (max-width: @{custom-small-tablet-breakpoint})';
+@medium-tablet: ~'only screen and (min-width: @{mobile-breakpoint}) and (max-width: @{large-mobile-breakpoint})';
+@tablet: ~'only screen and (max-width: @{tablet-breakpoint})';
+
+@mobile: ~'only screen and (max-width: @{mobile-breakpoint})';
+@medium-mobile: ~'only screen and (max-width: @{medium-mobile-breakpoint})';
+@large-mobile: ~'only screen and (max-width: @{large-mobile-breakpoint})';
+@mobile-iphone14: ~'only screen and (max-width: @{mobile-breakpoint-iphone14})';

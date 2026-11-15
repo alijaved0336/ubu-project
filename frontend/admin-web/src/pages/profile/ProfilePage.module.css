@@ -1,0 +1,87 @@
+.content {
+  padding: 20px 40px;
+  background-color: #f0f2f5;
+}
+
+.profileHeader {
+  width: 100%;
+  font-family: "Manrope";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 430px) {
+  .profileHeader {
+    background-color: #ff4444;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .saveButton {
+    font-family: "Manrope";
+    width: 100% !important;
+  }
+}
+
+.profileInfo {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.profileInfo p {
+  margin: 0;
+  color: #888;
+}
+
+.form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Manrope";
+}
+
+.saveButton {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  align-self: center;
+  font-family: "Manrope";
+}
+
+.deleteAccountSection {
+  font-family: "Manrope";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 20px;
+  color: #888;
+  border-radius: 8px;
+}
+
+.deleteAccountButton {
+  font-family: "Manrope";
+  background-color: #ffffff;
+  color: #ff4444;
+  border-color: #ff4444;
+  align-self: center;
+}
+.deleteAccountButton:hover {
+  background-color: #ff4444 !important;
+  border-color: #ff4444 !important;
+  color: #ffffff;
+
+}
+
+.saveButton:hover {
+  background-color: #333;
+  border-color: #333;
+}

@@ -1,0 +1,14 @@
+export enum CampaignCount {
+  BASIC_CAMPAIGN_COUNT_LIMIT = 5,
+  PROFESSIONAL_CAMPAIGN_COUNT_LIMIT = 10,
+  ENTERPRISE_CAMPAIGN_COUNT_LIMIT = 9999,
+}
+
+export enum PlatformFee {
+  PERCENTAGE_20 = 20,
+}
+export enum StripeFee {
+  STRIPE_PERCENTAGE = 2.9,
+  STRIPE_PERCENTAGE_VALUE = 0.029,
+  STRIPE_FLAT_FEE = 30,
+}

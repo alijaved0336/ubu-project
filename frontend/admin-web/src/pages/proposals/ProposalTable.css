@@ -1,0 +1,48 @@
+.proposal-container {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .create-proposal-button {
+    background-color: black !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    float: right;
+    letter-spacing: 0.07em;
+    border: 8px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  
+
+  .create-proposal-button:hover {
+    background: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+  }
+  .proposal-row {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.07em;
+  }
+  
+  .ant-table-thead > tr > th {
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+  
+  .ant-table-tbody > tr > td {
+    font-size: 0.875rem;
+  }
+  
+  .ant-table-row {
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .tabs-container {
+    padding-left: 20px; /* Adjust this value to create the desired margin */
+    padding-right: 20px;
+  }
+  
+  

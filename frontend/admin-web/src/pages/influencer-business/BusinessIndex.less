@@ -1,0 +1,94 @@
+@import "/src/less/responsive-variables.less";
+
+.footerDiv{
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+  margin-top: 5%;
+}
+
+.business-influencer-page {
+  // padding: 20px;
+  // max-width: 1200px;
+  margin: 0 auto;
+
+
+
+  .loader {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .no-results {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #666;
+    margin-top: 75px;
+  }
+
+
+  .business-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+    @media (max-width: 768px) {
+      gap: 15px;
+    }
+
+    @media (max-width: 480px) {
+      gap: 10px;
+    }
+  }
+
+  .business-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    @media @larger-than-tablet {
+      flex-direction: column;
+      align-items: start;
+      gap: 1rem;
+
+      .search-bar {
+        width: 100%;
+      }
+
+      .UBUPagination {
+        align-self: flex-end;
+      }
+    }
+    // margin-bottom: 20px;
+  }
+
+  .search-bar {
+      width: 50%;
+  }
+
+  .segment-buttons{
+    justify-content: right !important;
+  }
+
+  
+}
+
+.flex-item-parent {
+  display: flex;
+  flex-wrap: wrap;  /* Ensures items wrap to the next line */
+  gap: 20px;  /* Adds space between options */
+}
+
+.flex-item {
+  width: 22%;  /* Each item takes up 25% of the row, minus the gap */
+  box-sizing: border-box;  /* Ensures padding and borders don't affect width */
+}
+

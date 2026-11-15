@@ -1,0 +1,156 @@
+{
+  "unit": {
+    "char": "characters",
+    "digit": "digits"
+  },
+  "login": {
+    "heading": "Sign In to your Account"
+  },
+  "form": {
+    "sign-in": {
+      "placeholders": {
+        "email-placeholder": "Email",
+        "password-placeholder": "Password"
+      },
+      "field-names": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "buttons": {
+        "forgot-password": "Forgot Password?",
+        "sign-in": "Sign In",
+        "checkbox": "Remember Me"
+      },
+      "errors": {
+        "required": "*{{fieldName}} is required",
+        "invalid": "*Valid {{fieldName}} required",
+        "min-length": "*{{fieldName}} must have at least {{count}} {{unit}}"
+      }
+    },
+    "sign-up": {
+      "heading": "Sign Up for an Account",
+      "placeholders": {
+        "signup-with": "Or sign up with",
+        "email-placeholder": "Email",
+        "username-placeholder": "Username",
+        "password-placeholder": "Password",
+        "dob-placeholder": "Date of Birth",
+        "label": "Your password must have at least 8 characters",
+        "dont-have-account": "Already have an account?",
+        "sign-in-link": "Log In"
+      },
+      "field-names": {
+        "email": "Email",
+        "password": "Password",
+        "username": "Username",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "dob": "Date of Birth",
+        "terms": "Accepting the Terms and Conditions"
+      },
+      "buttons": {
+        "forgot-password": "Forgot Password?",
+        "sign-up": "Sign Up",
+        "checkbox": "SignUpPage",
+        "checkbox-value": "By creating an account means you agree to the Terms & Conditions and our Privacy Policy"
+      },
+      "errors": {
+        "required": "*{{fieldName}} is required",
+        "invalid": "*Valid {{fieldName}} required",
+        "min-length": "*{{fieldName}} must have at least {{count}} {{unit}}"
+      }
+    },
+    "reset-form": {
+      "heading": "Reset your password",
+      "desc": "Enter the email address associated with your account and we will send you a link to reset your password.",
+      "placeholders": {
+        "email-placeholder": "Email"
+      },
+      "buttons": {
+        "continue-button": "Continue",
+        "sign-in": "Back to Sign In"
+      }
+    }
+  },
+  "landing-page": {
+    "third": {
+      "heading": "What happens at",
+      "heading-2": "UBU",
+      "shop-smarter": {
+        "heading": "Shop smarter, not harder, with UBU's AI-powered platform.",
+        "desc": "Our technology analyzes your body scan, style preferences, and lifestyle to connect you with influencers and brands that suit your needs. Enjoy a seamless shopping experience without the hassle of searching."
+      },
+      "real-people": {
+        "heading": "Real People, Real Earnings, Real Fun",
+        "desc": "Why just follow when you can lead? Share your curations and earn money, no influencer-status required."
+      },
+      "simplified": {
+        "heading": "Simplified shopping for the whole family",
+        "desc": "Create a group profile and add family members to unlock personalized recommendations for everyone, no matter their age, size, or style."
+      }
+    },
+    "welcome": {
+      "heading": "Welcome to",
+      "heading-2": "UBU"
+    }
+  },
+  "reset-page": {},
+  "agency-registration-page": {
+    "header": {
+      "button-text": "Agency Login",
+      "text1": "APPLY TO BE AN",
+      "text2": "UBU Agency"
+    },
+    "content": {
+      "text1": "UBU Agency Application Form",
+      "description": "Welcome to the ubu brand partnership application. We are thrilled to collaborate. With forward-thinking brands that align with our vision of creating a hyper-Personalized shopping experience. Ubu leverages ai, body scanning technology, And a decentralized influencer model to connect consumers with brands and Influencers based on shared attributes. If your brand is passionate about innovation And personalization, we would love to explore partnership opportunities with you.To help us better assist you, please complete this application on behalf of your Brand. An activation specialist will be in touch with you shortly to provide the next Steps in the application process"
+    }
+  },
+  "brand-registration-page": {
+    "header": {
+      "button-text": "Brand Owner Login",
+      "text1": "APPLY TO BE AN",
+      "text2": "UBU Brand Owner"
+    },
+    "content": {
+      "text1": "UBU Brand Application ",
+      "description": "We’re thrilled that you’re interested in joining the UBU community! With our cutting-edge technology, you can rest assured that you’re in great hands. To get started, please complete the form below so we can assist you properly. One of our representatives will be in touch shortly to guide you through the next steps in the application process. Thank you for choosing UBU!"
+    },
+    "field-names": {
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "company-name": "Company Name",
+      "company-website": "Company Website",
+      "phone-number": "Phone Number",
+      "job-title": "Job Title",
+      "email": "Email",
+      "password": "Password",
+      "common-field": ""
+    },
+    "errors": {
+      "required": "*{{fieldName}} is required",
+      "invalid": "*Invalid {{fieldName}}",
+      "min-length": "*{{fieldName}} must be longer than {{count}} {{unit}}",
+      "please-select": "*Please select one of option",
+      "required-cb": "*Please mark check"
+    }
+  },
+  "brand-profile-page": {
+    "back-segment": {
+      "brand-profile": "Brand Profile",
+      "back": "Back"
+    },
+    "info-card": {
+      "about-us": "About Us"
+    },
+    "review-card": {
+      "influencer-reviews": "Influencer Reviews",
+      "review": {
+        "top-comments": "Top Comments"
+      }
+    },
+    "image-gallery": {
+      "product-images": "Product Images"
+    }
+  } 
+}

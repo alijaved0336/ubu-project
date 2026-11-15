@@ -1,0 +1,186 @@
+@import "/src/less/responsive-variables.less";
+
+.segment-header {
+  display: flex;
+  // flex-wrap: wrap;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  align-items: center;
+  // overflow: hidden;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+
+
+  .brand-logo {
+    width: 100%;
+    max-width: 140px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin: 0 auto;
+    // justify-content: center;
+  }
+
+  .brand-logo img {
+    width: auto;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .campaign-summary {
+    display: flex;
+    flex-direction: column;
+    // flex-grow: 1;
+    gap: 0.75rem;
+  }
+
+  .summary-cards {
+    display: grid;
+    justify-items: center;
+    // justify-content: end;
+    grid-template-columns: repeat(4, 200px);
+    width: 100%;
+    // flex-wrap: wrap;
+    gap: 1rem;
+    // width: 100%;
+    // justify-content: center;
+
+  }
+
+  .summary-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 25%;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    min-width: 200px;
+    // max-width: 200px;
+    min-height: 5.375rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .summary-card:hover {
+    transform: scale(1.05);
+  }
+
+  .summary-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .summary-title {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .summary-count {
+    font-size: 0.875rem;
+    color: #999;
+  }
+
+  .summary-influencers {
+    display: flex;
+    justify-content: flex-start;
+    gap: -10px;
+    margin-bottom: 10px;
+  }
+
+  .influencer-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+
+    &:not(:first-child) {
+      margin-left: -15px;
+    }
+  }
+
+
+  .summary-view {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #000;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  .influencer-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e7e5e5;
+    color: black;
+    font-size: 0.75rem;
+    border: 2px solid #ddd;
+
+    &:not(:first-child) {
+      margin-left: -15px;
+    }
+    font-weight: 600;
+  }
+}
+
+.collapsed {
+  @media @collapsed-desktop {
+    &.segment-header {
+      flex-direction: column;    
+    }
+    .brand-logo, .campaign-summary {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .campaign-summary {
+      width: 100%;
+    }
+
+    .summary-cards {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      justify-content: center;
+    }
+  }
+}
+
+.not-collapsed {
+  @media @not-collapsed-desktop {
+    &.segment-header {
+      flex-direction: column;    
+    }
+    .brand-logo, .campaign-summary {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .campaign-summary {
+      width: 100%;
+    }
+
+    .summary-cards {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      justify-content: center;
+    }
+  }
+}
+
+.info-card {
+  color: #00000080 !important; 
+  font-family: 'Manrope', sans-serif; 
+}
